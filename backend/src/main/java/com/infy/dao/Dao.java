@@ -8,7 +8,8 @@ import com.infy.model.Data;
 
 public interface Dao {
 
-	String Store(Data data);
+	List<String> find();
+
 
 	
 

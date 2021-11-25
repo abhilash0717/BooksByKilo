@@ -7,7 +7,11 @@ import com.infy.model.Data;
 
 public interface ProjectService {
 
-	String Store(Data data);
+	
+
+	List<String> find();
+
+	
 
 	
 }

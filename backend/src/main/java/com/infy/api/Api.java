@@ -7,6 +7,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,16 +29,11 @@ public class Api {
 	@Autowired
 	private Environment environment;
 	
-	@PostMapping(value = "/storeTheData")
-	public ResponseEntity<String> validUser(@RequestBody Data data) throws Exception{
+	@GetMapping(value = "/find")
+	public ResponseEntity<List<String>> validUser() throws Exception{
 		try {
-			String[] books = data.getBookIds();
-			System.out.println(books);
-			for(String s : books) {
-				System.out.println(s);
-			}
-			String s = projectService.Store(data);
-			ResponseEntity<String> response = new ResponseEntity<String>(s,HttpStatus.CREATED);
+			List<String> s = projectService.find();
+			ResponseEntity<List<String>> response = new ResponseEntity<List<String>>(s,HttpStatus.CREATED);
 			return response;
 		}catch(Exception e) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));

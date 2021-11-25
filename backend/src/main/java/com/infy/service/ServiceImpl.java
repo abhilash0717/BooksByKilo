@@ -19,9 +19,11 @@ public class ServiceImpl implements ProjectService {
 	private Dao dao;
 
 	@Override
-	public String Store(Data data) {
-		return dao.Store(data);
+	public List<String> find() {
+		// TODO Auto-generated method stub
+		return dao.find();
 	}
+
 	
 
 }

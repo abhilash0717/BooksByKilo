@@ -8,6 +8,7 @@ import javax.persistence.Query;
 
 import org.springframework.stereotype.Repository;
 
+import com.infy.entity.DataEntity;
 import com.infy.model.Data;
 
 
@@ -19,10 +20,20 @@ public class DaoImpl implements Dao{
 	private EntityManager entityManager;
 
 	@Override
-	public String Store(Data data) {
-		// TODO Auto-generated method stub
+	public List<String> find() {
+		String s = "select t.title from DataEntity t";
+		Query q = entityManager.createQuery(s);
+//		q.setParameter("name", temp);
+		List<String> results = q.getResultList();
+		
+		if(results.size() > 0) {
+			System.out.println(results.size());
+			return results;
+		}
 		return null;
+		
 	}
 
+	
 	
 }
