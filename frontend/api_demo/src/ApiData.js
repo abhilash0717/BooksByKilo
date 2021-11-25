@@ -35,11 +35,12 @@ export default class ApiData extends Component {
   sendToDb = (e) => {
     e.preventDefault();
 
-    axios.post(url, this.state.dataFromDb)
-    .then((response) => {
-      this.setState({successMessage : response.data, errorMessage : ""})
-    })
-    .catch();
+    axios
+      .post(url, this.state.dataFromDb)
+      .then((response) => {
+        this.setState({ successMessage: response.data, errorMessage: "" });
+      })
+      .catch();
   };
   render() {
     const { bookIds } = this.state.dataFromDb;
