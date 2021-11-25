@@ -3,15 +3,13 @@ import axios from "axios";
 const url = "http://localhost:4000/ApiTesting/storeTheData";
 export default class ApiData extends Component {
   state = {
-    dataFromDb: {
-      bookIds: [],
-    },
+    bookIds: [],
     successMessage: "",
     errorMessage: "",
   };
 
   getFromAPI = (e) => {
-    var { bookIds } = this.state.dataFromDb;
+    var { bookIds } = this.state;
     e.preventDefault();
     axios
       .get(
@@ -25,8 +23,7 @@ export default class ApiData extends Component {
         for (var i = 0; i < response.data.items.length; i++) {
           id[i] = response.data.items[i].id;
         }
-        bookIds.push(id);
-        this.setState({ bookIds });
+        this.setState({ bookIds : id });
       })
       .catch();
     //ending bookids
@@ -36,17 +33,17 @@ export default class ApiData extends Component {
     e.preventDefault();
 
     axios
-      .post(url, this.state.dataFromDb)
+      .post(url, this.state)
       .then((response) => {
         this.setState({ successMessage: response.data, errorMessage: "" });
       })
       .catch();
   };
   render() {
-    const { bookIds } = this.state.dataFromDb;
+    const { bookIds } = this.state;
     return (
       <>
-        {JSON.stringify(this.state.dataFromDb)}
+        {JSON.stringify(this.state)}
         <h1>Hi</h1>
         <button onClick={(e) => this.getFromAPI(e)}>
           {" "}

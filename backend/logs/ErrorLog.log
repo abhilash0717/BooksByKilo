@@ -10818,3 +10818,31 @@ java.lang.NullPointerException: null
 24-Nov-2021 18:35:19 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 24-Nov-2021 18:35:19 INFO - Initializing Servlet 'dispatcherServlet'
 24-Nov-2021 18:35:19 INFO - Completed initialization in 3 ms
+25-Nov-2021 10:42:19 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 15548 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+25-Nov-2021 10:42:21 INFO - No active profile set, falling back to default profiles: default
+25-Nov-2021 10:42:29 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25-Nov-2021 10:42:29 INFO - Finished Spring Data repository scanning in 60 ms. Found 0 JPA repository interfaces.
+25-Nov-2021 10:42:59 INFO - Tomcat initialized with port(s): 4000 (http)
+25-Nov-2021 10:43:00 INFO - Initializing ProtocolHandler ["http-nio-4000"]
+25-Nov-2021 10:43:00 INFO - Starting service [Tomcat]
+25-Nov-2021 10:43:00 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+25-Nov-2021 10:43:05 INFO - Initializing Spring embedded WebApplicationContext
+25-Nov-2021 10:43:05 INFO - Root WebApplicationContext: initialization completed in 42407 ms
+25-Nov-2021 10:43:09 INFO - HikariPool-1 - Starting...
+25-Nov-2021 10:43:13 INFO - HikariPool-1 - Start completed.
+25-Nov-2021 10:43:13 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+25-Nov-2021 10:43:13 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+25-Nov-2021 10:43:23 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25-Nov-2021 10:43:24 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+25-Nov-2021 10:43:31 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25-Nov-2021 10:43:31 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25-Nov-2021 10:43:33 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25-Nov-2021 10:43:38 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+25-Nov-2021 10:43:43 INFO - Starting ProtocolHandler ["http-nio-4000"]
+25-Nov-2021 10:43:45 INFO - Tomcat started on port(s): 4000 (http) with context path ''
+25-Nov-2021 10:43:45 INFO - Started MainApplication in 91.985 seconds (JVM running for 104.152)
+25-Nov-2021 10:44:00 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-Nov-2021 10:44:00 INFO - Initializing Servlet 'dispatcherServlet'
+25-Nov-2021 10:44:00 INFO - Completed initialization in 9 ms
+25-Nov-2021 10:44:03 WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 13] (through reference chain: com.infy.model.Data["bookIds"]->java.lang.Object[][0])]
