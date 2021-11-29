@@ -50,6 +50,7 @@ export default class ApiData extends Component {
           Get the data from API
         </button>
         <button onClick={(e) => this.sendToDb(e)}>Send the data to DB</button>
+        <button>start</button>
       </>
     );
   }
