@@ -22,27 +22,35 @@ export default class Navbar extends Component {
           ></i>
           <a style={{ marginLeft: "5px", color: "#d4cac9" }}>Sign in</a>
         </div>
-        <nav className="navbar navbar-dark" >
-            <img src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" />
-          <a className="nav-link" style={{color:"black"}} href="#">New Books</a>
-          <a className="nav-link" style={{color:"black"}} href="#">Premium Collection</a>
-          <a className="nav-link" style={{color:"black"}} href="#">Classic Collection</a>
-          <a className="nav-link" style={{color:"black"}} href="#">Standard Collection</a>
-          <a className="nav-link" href="#">
-          <i
-            className="fa fa-shopping-cart"
-            style={{ marginLeft: "400px", color: "black" }} 
-          ></i></a>
+
+        <nav className="navbar navbar-dark">
+          <img src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" />
+          <a className="nav-link" style={{ color: "black" }} href="#">
+            New Books
+          </a>
+          <a className="nav-link" style={{ color: "black" }} href="#">
+            Premium Collection
+          </a>
+          <a className="nav-link" style={{ color: "black" }} href="#">
+            Classic Collection
+          </a>
+          <a className="nav-link" style={{ color: "black" }} href="#">
+            Standard Collection
+          </a>
           <a className="nav-link" href="#">
             <i
-            className="fa fa-search"
-            style={{ marginLeft: "10px", color: "black" }}
-          ></i></a>
+              className="fa fa-shopping-cart"
+              style={{ marginLeft: "400px", color: "black" }}
+            ></i>
+          </a>
+          <a className="nav-link" href="#">
+            <i
+              className="fa fa-search"
+              style={{ marginLeft: "10px", color: "black" }}
+            ></i>
+          </a>
         </nav>
       </>
     );
   }
 }
-
-
-
