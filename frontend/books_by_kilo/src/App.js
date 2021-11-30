@@ -1,5 +1,6 @@
 import "./App.css";
 import HomePage from "./components/HomePage";
+import Navbar from "./components/Navbar"
 import Login from "./components/Login";
 
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
@@ -11,9 +12,12 @@ function App() {
         <>
           <Link to="/home" />
           <Link to="/login" />
+          <Link to="/navbar" />
           <Routes>
             <Route path="/home" exact element={<HomePage />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/navbar" element={<Navbar />} />
+
           </Routes>
         </>
       </Router>
