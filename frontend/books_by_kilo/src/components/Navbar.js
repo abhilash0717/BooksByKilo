@@ -16,6 +16,22 @@ export default class Navbar extends Component {
     console.log('clicked');
     window.location="/contactUs"
   }
+  newBooks=()=> {
+    console.log('clicked');
+    window.location="/newBooks"
+  }
+  premiumCollection=()=> {
+    console.log('clicked');
+    window.location="/premiumCollection"
+  }
+  classicCollection=()=> {
+    console.log('clicked');
+    window.location="/classicCollection"
+  }
+  standardCollection=()=> {
+    console.log('clicked');
+    window.location="/standardCollection"
+  }
   render() {
     return (
       <>
@@ -38,30 +54,30 @@ export default class Navbar extends Component {
 
         <nav className="navbar navbar-dark">
           <img src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" />
-          <span className="nav-link" style={{ color: "black" }}>
+         <a> <span className="nav-link" style={{ color: "black" }} onClick={()=>this.newBooks()}>
             New Books
-          </span>
-          <span className="nav-link" style={{ color: "black" }}>
+          </span></a>
+         <a> <span className="nav-link" style={{ color: "black" }} onClick={()=>this.premiumCollection()}>
             Premium Collection
-          </span>
-          <span className="nav-link" style={{ color: "black" }}>
+          </span></a>
+        <a><span className="nav-link" style={{ color: "black" }} onClick={()=>this.classicCollection()}>
             Classic Collection
-          </span>
-          <span className="nav-link" style={{ color: "black" }}>
+          </span></a>
+        <a><span className="nav-link" style={{ color: "black" }} onClick={()=>this.standardCollection()}>
             Standard Collection
-          </span>
-          <span className="nav-link" >
+          </span></a>
+          <a><span className="nav-link" >
             <i
               className="fa fa-shopping-cart"
               style={{ marginLeft: "400px", color: "black" }}
             ></i>
-          </span>
-          <span className="nav-link">
+          </span></a>
+         <a> <span className="nav-link">
             <i
               className="fa fa-search"
               style={{ marginLeft: "10px", color: "black" }}
             ></i>
-          </span>
+          </span></a>
         </nav>
       </>
     );
