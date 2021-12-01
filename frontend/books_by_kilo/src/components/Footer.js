@@ -7,14 +7,38 @@ export default class Footer extends Component {
     return (
       <>
         <div
-          style={{ backgroundColor: "red", color: "white", marginTop: "20px" }}
+          style={{
+            backgroundColor: "#de1013",
+            color: "white",
+            marginTop: "20px",
+          }}
         >
           <div class="row">
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <h4>Books By Kilo</h4>
               <h5>Spend less. Read more.</h5>
               <br></br>
-              <h6>fds</h6>
+              <div>
+                <span>
+                  <i class="fa fa-twitter-square fa-2x"></i>
+                </span>{" "}
+                &nbsp;
+                <span>
+                  <i class="fa fa-facebook-square fa-2x"></i>
+                </span>{" "}
+                &nbsp;
+                <span>
+                  <i class="fa fa-envelope fa-2x "></i>
+                </span>{" "}
+                &nbsp;
+                <span>
+                  <i class="fa fa-instagram fa-2x"></i>
+                </span>
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <div>
@@ -43,7 +67,10 @@ export default class Footer extends Component {
               </div>
             </div>
           </div>
-        </div>
+          <hr></hr>
+          <p style = {{marginTop : "20px"}}>Books By Kilo. All Rights Reserved.</p>
+          <br />
+        </div> 
       </>
     );
   }

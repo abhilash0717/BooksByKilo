@@ -5,7 +5,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-        <div style={{ backgroundColor: "red" }}>
+        <div style={{ backgroundColor: "#de1013" }}>
           <i
             className="fa fa-question-circle"
             style={{ marginLeft: "900px", color: "#d4cac9" }}
