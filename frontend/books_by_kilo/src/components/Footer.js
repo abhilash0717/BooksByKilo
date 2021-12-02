@@ -3,6 +3,13 @@ import { Component } from "react";
 import "../App.css";
 
 export default class Footer extends Component {
+  contactUsPage = () => {
+    window.location = "/contactUs";
+  };
+
+  FAQPage = () => {
+    window.location = "/faq";
+  };
   render() {
     return (
       <>
@@ -72,27 +79,21 @@ export default class Footer extends Component {
                 </span>{" "}
                 <br />
                 <span>
-                  <i>Contact Us</i>
+                  <i onClick={() => this.contactUsPage()}>Contact Us</i>
                 </span>
               </div>
             </div>
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <div>
                 <h4>Support Center</h4>
-                <span>
-                  <i>+91 8939254353</i>
-                </span>{" "}
-                <br />
-                <span>
-                  <i>support@booksbykilo.co</i>
-                </span>{" "}
-                <br />
+                <span>+91 8939254353</span> <br />
+                <span>support@booksbykilo.co</span> <br />
                 <span>
                   <i>Bulk Purchase</i>
                 </span>{" "}
                 <br />
                 <span>
-                  <i>FAQ</i>
+                  <i onClick={() => this.FAQPage()}>FAQ</i>
                 </span>
               </div>
             </div>
