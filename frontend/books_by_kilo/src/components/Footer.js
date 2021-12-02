@@ -60,7 +60,7 @@ export default class Footer extends Component {
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <div>
                 <h4>Support Center</h4>
-                <span>+91 8939254353</span> <br />
+                <span>+91-8939254353</span> <br />
                 <span>support@booksbykilo.co</span> <br />
                 <span>Bulk Purchase</span> <br />
                 <span>FAQ</span>
@@ -68,9 +68,11 @@ export default class Footer extends Component {
             </div>
           </div>
           <hr></hr>
-          <p style = {{marginTop : "20px"}}>Books By Kilo. All Rights Reserved.</p>
+          <p style={{ marginTop: "20px" }}>
+            Books By Kilo. All Rights Reserved.
+          </p>
           <br />
-        </div> 
+        </div>
       </>
     );
   }
