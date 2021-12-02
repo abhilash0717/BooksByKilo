@@ -43,27 +43,57 @@ export default class Footer extends Component {
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <div>
                 <h4>Information</h4>
-                <span>About Us</span> <br />
-                <span>Disclaimer</span> <br />
-                <span>Terms and Conditions</span> <br />
-                <span>Privacy Policy</span> <br />
-                <span>Cancellation Policy</span>
+                <span>
+                  <i>About Us</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>Disclaimer</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>Terms and Conditions</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>Privacy Policy</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>Cancellation Policy</i>
+                </span>
               </div>
             </div>
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <div>
                 <h4>Customer</h4>
-                <span>My Orders</span> <br />
-                <span>Contact Us</span>
+                <span>
+                  <i>My Orders</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>Contact Us</i>
+                </span>
               </div>
             </div>
             <div class="col-md-3" style={{ marginTop: "30px" }}>
               <div>
                 <h4>Support Center</h4>
-                <span>+91-8939254353</span> <br />
-                <span>support@booksbykilo.co</span> <br />
-                <span>Bulk Purchase</span> <br />
-                <span>FAQ</span>
+                <span>
+                  <i>+91 8939254353</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>support@booksbykilo.co</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>Bulk Purchase</i>
+                </span>{" "}
+                <br />
+                <span>
+                  <i>FAQ</i>
+                </span>
               </div>
             </div>
           </div>
