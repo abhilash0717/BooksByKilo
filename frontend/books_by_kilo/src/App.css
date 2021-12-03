@@ -36,11 +36,14 @@
     transform: rotate(360deg);
   }
 }
+#cart :hover {
+  cursor: pointer;
+}
 span :hover {
   color: black !important;
   cursor: pointer;
 }
-a :hover{
+a :hover {
   color: red !important;
   cursor: pointer;
 }

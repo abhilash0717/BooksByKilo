@@ -12,7 +12,7 @@ export default class ContactUs extends Component {
           <div class="col-md-3">
             <p style={{ color: "red" }}>Get in touch</p>
             <span> Mobile : +91 88286 87287</span> <br />
-            <span> Email : support@booksbykilo.co</span>
+            {/* <span> Email : support@booksbykilo.co</span> */}
           </div>
           <div class="col-md-3" style={{ marginLeft: "600px" }}>
             <p style={{ color: "red" }}>Location</p>
