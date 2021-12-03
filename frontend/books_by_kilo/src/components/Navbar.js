@@ -142,25 +142,26 @@ export default class Navbar extends Component {
               </i>
             </p>
           </p>
-          <a>
+          
             {" "}
             <span className="nav-link">
-              <i
+              <a><i
                 onClick={() => this.search()}
                 className="fa fa-search"
                 style={{
-                  marginLeft: "-220px",
+                  marginLeft: "-180px",
                   marginBottom: "20px",
                   color: "black",
                 }}
               >
                 &nbsp;&nbsp;
-                {this.state.searchToggle ? (
+                
+              </i></a>
+              {this.state.searchToggle ? (
                   <input style={{ width: "160px" }} type="text"></input>
                 ) : null}
-              </i>
             </span>
-          </a>
+          
         </nav>
       </>
     );
