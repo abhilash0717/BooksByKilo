@@ -3,6 +3,15 @@ import { Component } from "react";
 import "../App.css";
 
 export default class Navbar extends Component {
+  state = {
+    searchToggle: false,
+  };
+
+  search = () => {
+    console.log("clicked");
+    this.setState({ searchToggle: !this.state.searchToggle });
+  };
+
   faq = () => {
     console.log("clicked");
     window.location = "/faq";
@@ -77,7 +86,7 @@ export default class Navbar extends Component {
             {" "}
             <span
               className="nav-link"
-              style={{ color: "black" }}
+              style={{ color: "black", marginLeft: "-70px" }}
               onClick={() => this.newBooks()}
             >
               New Books
@@ -87,7 +96,7 @@ export default class Navbar extends Component {
             {" "}
             <span
               className="nav-link"
-              style={{ color: "black" }}
+              style={{ color: "black", marginLeft: "-130px" }}
               onClick={() => this.premiumCollection()}
             >
               Premium Collection
@@ -96,7 +105,7 @@ export default class Navbar extends Component {
           <a>
             <span
               className="nav-link"
-              style={{ color: "black" }}
+              style={{ color: "black", marginLeft: "-130px" }}
               onClick={() => this.classicCollection()}
             >
               Classic Collection
@@ -105,7 +114,7 @@ export default class Navbar extends Component {
           <a>
             <span
               className="nav-link"
-              style={{ color: "black" }}
+              style={{ color: "black", marginLeft: "-130px" }}
               onClick={() => this.standardCollection()}
             >
               Standard Collection
@@ -115,8 +124,9 @@ export default class Navbar extends Component {
             <p className="nav-link">
               <i
                 className="fa fa-shopping-cart"
-                style={{ marginLeft: "400px", color: "black" }}
+                style={{ marginLeft: "-20px", color: "black" }}
               >
+                {" "}
                 <p
                   style={{
                     display: "block",
@@ -136,9 +146,19 @@ export default class Navbar extends Component {
             {" "}
             <span className="nav-link">
               <i
+                onClick={() => this.search()}
                 className="fa fa-search"
-                style={{ marginLeft: "10px", color: "black" }}
-              ></i>
+                style={{
+                  marginLeft: "-220px",
+                  marginBottom: "20px",
+                  color: "black",
+                }}
+              >
+                &nbsp;&nbsp;
+                {this.state.searchToggle ? (
+                  <input style={{ width: "160px" }} type="text"></input>
+                ) : null}
+              </i>
             </span>
           </a>
         </nav>
