@@ -248,6 +248,7 @@ export default class Faq extends Component {
             ) : null}{" "}
           </div>
         </div>
+        <br />
         <Footer />
       </>
     );

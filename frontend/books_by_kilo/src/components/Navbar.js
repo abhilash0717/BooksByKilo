@@ -80,7 +80,7 @@ export default class Navbar extends Component {
           </span>
         </div>
 
-        <nav className="navbar navbar-dark">
+        <navbar className="navbar navbar navbar-fixed-top">
           <img src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" />
           <a>
             {" "}
@@ -165,7 +165,7 @@ export default class Navbar extends Component {
               Go
             </button>
           </div>
-        </nav>
+        </navbar>
       </>
     );
   }
