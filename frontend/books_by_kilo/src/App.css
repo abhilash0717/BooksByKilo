@@ -47,3 +47,19 @@ a :hover {
   color: red !important;
   cursor: pointer;
 }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 black !important;
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 2px 4px 0 black !important;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 8px 16px;
+}

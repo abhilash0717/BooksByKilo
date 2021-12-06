@@ -16,7 +16,7 @@ render(){
         <h1>Frequently Asked Questions</h1>
         <div className="container">
         <div style={{border:"2px solid black"}}>
-           <p style={{paddingTop:"10px"}}> How good are the Books?<i 
+           <p style={{paddingTop:"10px"}}> How good are the Books? <i 
              className="fa fa-plus"
             style={{ marginLeft: "850px" }}
            onClick={()=>this.plusClick()}></i></p> 
