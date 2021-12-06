@@ -1,4 +1,4 @@
-.App{
+.App {
   text-align: center;
 }
 
@@ -50,8 +50,9 @@ a :hover {
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 black !important;
+  /* box-shadow: 0 4px 8px 0 black !important; */
   transition: 0.3s;
+  border-radius: "20px";
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -59,7 +60,13 @@ a :hover {
   box-shadow: 0 2px 4px 0 black !important;
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 8px 16px;
+.button2 {
+  color: white;
+  font-weight: bold;
+  background-color: #85ff21;
+  border-radius: 20px;
+}
+
+.button2 :hover {
+  background-color: #51ad05 !important;
 }
