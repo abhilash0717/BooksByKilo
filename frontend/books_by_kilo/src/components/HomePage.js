@@ -30,7 +30,7 @@ export default class HomePage extends Component {
           <div className="col-md-3">
             <div className="card">
               <div className="card-body">
-                <img src="https://www.booksbykilo.in/media/staticimages/HomepageNewBooks.png" />
+                <img src="https://www.booksbykilo.in/media/staticimages/HomepagePremium.png" />
                 <h5 className="card-title">Card title</h5>
               </div>
             </div>
