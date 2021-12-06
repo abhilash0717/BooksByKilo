@@ -148,20 +148,23 @@ export default class Navbar extends Component {
                 className="form-control input"
                 style={{ width: "160px", marginRight: "-140px" }}
                 type="text"
+                placeholder="Search for book"
               ></input>
             </p>
           </div>
-          <button
-            style={{
-              marginTop: "-19px",
-              backgroundColor: "#de1013",
-              color: "white",
-              fontWeight: "bold",
-            }}
-            className="btn"
-          >
-            Go
-          </button>
+          <div id="go">
+            <button
+              style={{
+                marginTop: "-19px",
+                backgroundColor: "#f25050",
+                color: "white",
+                fontWeight: "bold",
+              }}
+              className="btn"
+            >
+              Go
+            </button>
+          </div>
         </nav>
       </>
     );

@@ -75,3 +75,11 @@ a :hover {
 .button2 :hover {
   background-color: #51ad05 !important;
 }
+
+#go :hover {
+  background-color: #de1013 !important;
+}
+
+#plus :hover {
+  cursor: pointer;
+}
