@@ -24,10 +24,13 @@ export default class HomePage extends Component {
       <>
         <Navbar />
         <div className="row">
-          <div className="col-md-4" style={{ marginLeft: "30px" }}>
+          <div className="col-md-3" style={{ marginLeft: "20px" }}>
             <div className="card">
               <div className="card-body">
-                <img src="https://www.booksbykilo.in/media/staticimages/HomepageNewBooks.png" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://www.booksbykilo.in/media/staticimages/HomepageNewBooks.png"
+                />
                 <h4 style={{ marginRight: "140px" }}>New books</h4>
                 <div className="row">
                   <div className="col-md-8">
@@ -36,17 +39,25 @@ export default class HomePage extends Component {
                   </div>
                   <div className="col-md-4">
                     <div className="button2">
-                      <button className="btn button2" onClick={() => this.newBooks()}>Explore</button>
+                      <button
+                        className="btn button2"
+                        onClick={() => this.newBooks()}
+                      >
+                        Explore
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3" style = {{marginLeft : "-10px"}}>
             <div className="card">
               <div className="card-body">
-                <img src="https://www.booksbykilo.in/media/staticimages/HomepagePremium.png" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://www.booksbykilo.in/media/staticimages/HomepagePremium.png"
+                />
                 <h5 style={{ marginRight: "140px" }}>Premium Books</h5>
                 <div className="row">
                   <div className="col-md-8">
@@ -55,17 +66,25 @@ export default class HomePage extends Component {
                   </div>
                   <div className="col-md-4">
                     <div className="button2">
-                      <button className="btn button2" onClick={() => this.premiumCollection()}>Explore</button>
+                      <button
+                        className="btn button2"
+                        onClick={() => this.premiumCollection()}
+                      >
+                        Explore
+                      </button>
                     </div>
                   </div>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-md-3" style={{ marginLeft: "100px" }}>
+          <div className="col-md-3" style={{ marginLeft: "-10px" }}>
             <div className="card">
               <div className="card-body">
-                <img src="https://www.booksbykilo.in/media/staticimages/HomepageClassic.jpg" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://www.booksbykilo.in/media/staticimages/HomepageClassic.jpg"
+                />
                 <h5 style={{ marginRight: "140px" }}>Classic Books</h5>
                 <div className="row">
                   <div className="col-md-8">
@@ -74,19 +93,29 @@ export default class HomePage extends Component {
                   </div>
                   <div className="col-md-4">
                     <div className="button2">
-                      <button className="btn button2" onClick={() => this.classicCollection()}>Explore</button>
+                      <button
+                        className="btn button2"
+                        onClick={() => this.classicCollection()}
+                      >
+                        Explore
+                      </button>
                     </div>
                   </div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <div className="col-md-3" style={{marginLeft:"30px", marginTop:"30px"}}>
+          <div
+            className="col-md-3"
+            style={{ marginLeft: "-20px", marginTop: "0px" }}
+          >
             <div className="card">
               <div className="card-body">
-                <img src="https://www.booksbykilo.in/media/staticimages/HomepageStandard.jpg" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://www.booksbykilo.in/media/staticimages/HomepageStandard.jpg"
+                />
                 <h5 style={{ marginRight: "140px" }}>Standard Books</h5>
                 <div className="row">
                   <div className="col-md-8">
@@ -95,14 +124,19 @@ export default class HomePage extends Component {
                   </div>
                   <div className="col-md-4">
                     <div className="button2">
-                      <button className="btn button2"  onClick={() => this.standardCollection()}>Explore</button>
+                      <button
+                        className="btn button2"
+                        onClick={() => this.standardCollection()}
+                      >
+                        Explore
+                      </button>
                     </div>
                   </div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
       </>
     );
   }

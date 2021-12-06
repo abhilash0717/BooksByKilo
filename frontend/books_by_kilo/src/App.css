@@ -51,7 +51,7 @@ a :hover {
 .card {
   /* Add shadows to create the "card" effect */
   /* box-shadow: 0 4px 8px 0 black !important; */
-width: 350px;
+  width: 300px;
   transition: 0.3s;
 }
 
