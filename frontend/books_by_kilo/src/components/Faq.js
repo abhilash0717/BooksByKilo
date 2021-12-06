@@ -1,5 +1,4 @@
 import { Component } from "react"
-import react from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 export default class Faq extends Component{
@@ -17,7 +16,7 @@ render(){
         <div className="container">
         <div style={{border:"2px solid black"}}>
            <p style={{paddingTop:"10px"}}> How good are the Books? <i 
-             className="fa fa-plus"
+             className="fa fa-plus panel-collapse"
             style={{ marginLeft: "850px" }}
            onClick={()=>this.plusClick()}></i></p> 
          {this.state.toggle ? 
