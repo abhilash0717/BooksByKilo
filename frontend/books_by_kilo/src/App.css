@@ -48,6 +48,11 @@ a :hover {
   cursor: pointer;
 }
 
+#search :hover {
+  cursor: text;
+  color: black !important;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   /* box-shadow: 0 4px 8px 0 black !important; */

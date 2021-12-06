@@ -124,7 +124,7 @@ export default class Navbar extends Component {
             <p className="nav-link">
               <i
                 className="fa fa-shopping-cart"
-                style={{ marginLeft: "-20px", color: "black" }}
+                style={{ marginRight: "-250px", color: "black" }}
               >
                 {" "}
                 <p
@@ -141,27 +141,27 @@ export default class Navbar extends Component {
                 </p>
               </i>
             </p>
-          </p>
-          
-            {" "}
-            <span className="nav-link">
-              <a><i
-                onClick={() => this.search()}
-                className="fa fa-search"
-                style={{
-                  marginLeft: "-180px",
-                  marginBottom: "20px",
-                  color: "black",
-                }}
-              >
-                &nbsp;&nbsp;
-                
-              </i></a>
-              {this.state.searchToggle ? (
-                  <input style={{ width: "160px" }} type="text"></input>
-                ) : null}
-            </span>
-          
+          </p>{" "}
+          <div id="search">
+            <p className="nav-link">
+              <input
+                className="form-control input"
+                style={{ width: "160px", marginRight: "-140px" }}
+                type="text"
+              ></input>
+            </p>
+          </div>
+          <button
+            style={{
+              marginTop: "-19px",
+              backgroundColor: "#de1013",
+              color: "white",
+              fontWeight: "bold",
+            }}
+            className="btn"
+          >
+            Go
+          </button>
         </nav>
       </>
     );
