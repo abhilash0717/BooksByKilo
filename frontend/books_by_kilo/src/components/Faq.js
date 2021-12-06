@@ -18,7 +18,7 @@ render(){
            <p style={{paddingTop:"10px"}}> How good are the Books? <i 
              className="fa fa-plus panel-collapse"
             style={{ marginLeft: "850px" }}
-           onClick={()=>this.plusClick()}></i></p> 
+           onClick={()=>this.plusClick()}></i></p>
          {this.state.toggle ? 
          <div> 
              <p>answer</p> 
