@@ -27,7 +27,7 @@ export default class Faq extends Component {
     this.setState({
       toggle: false,
       toggle2: false,
-      toggle3: !this.state.toggl3,
+      toggle3: !this.state.toggle3,
       toggle4: false,
     });
   };
