@@ -2,6 +2,19 @@ import React from "react";
 import { Component } from "react";
 import Navbar from "./Navbar";
 import "../App.css";
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+  {
+    url: "https://www.booksbykilo.in/media/staticimages/Homepage-main-banner3.png",
+  },
+  {
+    url: "https://www.booksbykilo.in/media/staticimages/Homepage-main-banner1.png",
+  },
+  {
+    url: "https://www.booksbykilo.in/media/staticimages/Homepage-main-banner2.png",
+  },
+];
 export default class HomePage extends Component {
   newBooks = () => {
     console.log("clicked");
@@ -51,7 +64,7 @@ export default class HomePage extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-3" style = {{marginLeft : "-10px"}}>
+          <div className="col-md-3" style={{ marginLeft: "-10px" }}>
             <div className="card">
               <div className="card-body">
                 <img
@@ -136,6 +149,19 @@ export default class HomePage extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <br />
+        <div>
+          <SimpleImageSlider
+            width={896}
+            height={504}
+            images={images}
+            showBullets={true}
+            showNavs={true}
+            slideDuration={0.5}
+            autoPlay={true}
+            autoPlayDelay={3.0}
+          />
         </div>
       </>
     );

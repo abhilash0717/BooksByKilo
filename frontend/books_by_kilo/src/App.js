@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <>
-          <Link to="/home" />
+          <Link to="/" />
           <Link to="/login" />
           <Link to="/navbar" />
           <Link to="/faq" />
@@ -26,7 +26,7 @@ function App() {
           <Link to="/standardCollection" />
 
           <Routes>
-            <Route path="/home" exact element={<HomePage />} />
+            <Route exact path="/" exact element={<HomePage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/navbar" element={<Navbar />} />
             <Route path="/faq" element={<Faq />} />
