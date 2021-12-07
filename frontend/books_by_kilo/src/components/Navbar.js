@@ -80,7 +80,7 @@ export default class Navbar extends Component {
           </span>
         </div>
 
-        <nav className="navbar navbar-dark">
+        <navbar className="navbar navbar navbar-fixed-top">
           <img src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" />
           <a>
             {" "}
@@ -148,21 +148,24 @@ export default class Navbar extends Component {
                 className="form-control input"
                 style={{ width: "160px", marginRight: "-140px" }}
                 type="text"
+                placeholder="Search for book"
               ></input>
             </p>
           </div>
-          <button
-            style={{
-              marginTop: "-19px",
-              backgroundColor: "#de1013",
-              color: "white",
-              fontWeight: "bold",
-            }}
-            className="btn"
-          >
-            Go
-          </button>
-        </nav>
+          <div id="go">
+            <button
+              style={{
+                marginTop: "-19px",
+                backgroundColor: "#f25050",
+                color: "white",
+                fontWeight: "bold",
+              }}
+              className="btn"
+            >
+              Go
+            </button>
+          </div>
+        </navbar>
       </>
     );
   }
