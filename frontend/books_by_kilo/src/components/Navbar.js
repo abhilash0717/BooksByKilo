@@ -2,11 +2,14 @@ import React from "react";
 import { Component } from "react";
 import "../App.css";
 
+
 export default class Navbar extends Component {
   state = {
     searchToggle: false,
+    cart: false,
   };
 
+  cart = () => {};
   search = () => {
     console.log("clicked");
     this.setState({ searchToggle: !this.state.searchToggle });
@@ -124,6 +127,7 @@ export default class Navbar extends Component {
             <p className="nav-link">
               <i
                 className="fa fa-shopping-cart"
+                onClick={() => this.cart()}
                 style={{ marginRight: "-250px", color: "black" }}
               >
                 {" "}
