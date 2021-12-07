@@ -2,6 +2,7 @@ import React from "react";
 import { Component } from "react";
 import Navbar from "./Navbar";
 import "../App.css";
+import Footer from "./Footer";
 import SimpleImageSlider from "react-simple-image-slider";
 
 const images = [
@@ -41,16 +42,16 @@ export default class HomePage extends Component {
             <div className="card">
               <div className="card-body">
                 <img
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                   src="https://www.booksbykilo.in/media/staticimages/HomepageNewBooks.png"
                 />
-                <h4 style={{ marginRight: "140px" }}>New books</h4>
+                <h5 style={{ marginRight: "135px" }}>New books</h5>
                 <div className="row">
-                  <div className="col-md-8">
-                    <h6>Discount up to 80%</h6>
-                    <p>Hot new best-selling releases</p>
+                  <div className="col-md-7">
+                    <h6>Discount of 80%</h6>
+                    <p>New best-selling releases</p>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-5">
                     <div className="button2">
                       <button
                         className="btn button2"
@@ -68,16 +69,16 @@ export default class HomePage extends Component {
             <div className="card">
               <div className="card-body">
                 <img
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                   src="https://www.booksbykilo.in/media/staticimages/HomepagePremium.png"
                 />
-                <h5 style={{ marginRight: "140px" }}>Premium Books</h5>
+                <h5 style={{ marginRight: "100px" }}>Premium Books</h5>
                 <div className="row">
-                  <div className="col-md-8">
+                  <div className="col-md-7">
                     <h6>Books at ₹499/kg</h6>
                     <p>Dive into the world of best sellers</p>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-5">
                     <div className="button2">
                       <button
                         className="btn button2"
@@ -95,16 +96,16 @@ export default class HomePage extends Component {
             <div className="card">
               <div className="card-body">
                 <img
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                   src="https://www.booksbykilo.in/media/staticimages/HomepageClassic.jpg"
                 />
-                <h5 style={{ marginRight: "140px" }}>Classic Books</h5>
+                <h5 style={{ marginRight: "120px" }}>Classic Books</h5>
                 <div className="row">
-                  <div className="col-md-8">
+                  <div className="col-md-7">
                     <h6>Books at ₹399/kg</h6>
-                    <p>Explore books and get hooked to reading</p>
+                    <p>Explore books and get hooked</p>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-5">
                     <div className="button2">
                       <button
                         className="btn button2"
@@ -126,16 +127,16 @@ export default class HomePage extends Component {
             <div className="card">
               <div className="card-body">
                 <img
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                   src="https://www.booksbykilo.in/media/staticimages/HomepageStandard.jpg"
                 />
-                <h5 style={{ marginRight: "140px" }}>Standard Books</h5>
+                <h5 style={{ marginRight: "100px" }}>Standard Books</h5>
                 <div className="row">
-                  <div className="col-md-8">
+                  <div className="col-md-7">
                     <h6>Books at ₹299/kg</h6>
                     <p>Rediscover reading with our books</p>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-5">
                     <div className="button2">
                       <button
                         className="btn button2"
@@ -163,6 +164,245 @@ export default class HomePage extends Component {
             autoPlayDelay={3.0}
           />
         </div>
+        <br />
+        <br />
+
+        <div>
+          <div className="row">
+            <div className="col-md-3" style={{ marginLeft: "20px" }}>
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/Homepage-informative-activity-Books.jpg"
+                  />
+                  <h5 style={{ marginRight: "60px" }}>Informative/Activity</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <h6>Discount of 80%</h6>
+                      <p>New best-selling releases</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.newBooks()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3" style={{ marginLeft: "-10px" }}>
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/HomepageBookunder100.jpg"
+                  />
+                  <h5 style={{ marginRight: "70px" }}>Books Under 100 Rs </h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <h6>Books at ₹499/kg</h6>
+                      <p>Dive into the world of best sellers</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.premiumCollection()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3" style={{ marginLeft: "-10px" }}>
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/HomepageFictionNonFiction.png"
+                  />
+                  <h5 style={{ marginRight: "45px" }}>Fiction & Non Fiction</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <h6>Books at ₹399/kg</h6>
+                      <p>Explore books and get hooked</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.classicCollection()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-3"
+              style={{ marginLeft: "-20px", marginTop: "0px" }}
+            >
+              <div className="card">
+                <div className="card-body bg-image hover-zoom">
+                  <img
+                    style={{ width: "80%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/Homepagekids.png"
+                  />
+
+                  <h5 style={{ marginRight: "70px" }}>Childeren Books</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <p>Rediscover reading with our books</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.standardCollection()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <div>
+          <div className="row">
+            <div
+              className="col-md-3"
+              style={{ marginLeft: "20px", marginTop: "0px" }}
+            >
+              <div className="card">
+                <div className="card-body bg-image hover-zoom">
+                  <img
+                    style={{ width: "80%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/Homepagebulk.png"
+                  />
+
+                  <h5 style={{ marginRight: "70px" }}>Books in bulk</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <p>Rediscover reading with our books</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.standardCollection()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/Homepage-teen-fiction-Books.jpg"
+                  />
+                  <h5 style={{ marginRight: "140px" }}>Teen fiction</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <h6>Discount of 80%</h6>
+                      <p>New best-selling releases</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.newBooks()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3" style={{ marginLeft: "-10px" }}>
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/HomepageBestSellingAuthors.jpg"
+                  />
+                  <h5 style={{ marginRight: "70px" }}>Best selling authors</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <h6>Books at ₹499/kg</h6>
+                      <p>Dive into the world of best sellers</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.premiumCollection()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3" style={{ marginLeft: "-10px" }}>
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.booksbykilo.in/media/staticimages/HomepageOnlineLibrary.png"
+                  />
+                  <h5 style={{ marginRight: "45px" }}>Books under 100 gm</h5>
+                  <div className="row">
+                    <div className="col-md-7">
+                      <h6>Books ₹399/kg</h6>
+                      <p>Explore books and get hooked</p>
+                    </div>
+                    <div className="col-md-5">
+                      <div className="button2">
+                        <button
+                          className="btn button2"
+                          onClick={() => this.classicCollection()}
+                        >
+                          Explore
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <Footer />
       </>
     );
   }
