@@ -5,15 +5,9 @@ import "../App.css";
 // export default class SlideShow extends Component{
     export default function SlideShow() {
         const dataSlider = [
-            {
-              id: "1",
-            },
-            {
-              id: "2",
-            },
-            {
-              id: "3",
-            },
+            { id: "1" },
+            { id: "2" },
+            { id: "3" },
           ];
         const [slideIndex, setSlideIndex] = useState(1)
   
