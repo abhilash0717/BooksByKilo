@@ -71,15 +71,44 @@ a :hover {
   background-color: #85ff21;
   border-radius: 20px;
 }
+.button4 {
+  color: white;
+  font-weight: bold;
+  background-color: #85ff21;
+  border-radius: 20px;
+  margin-left: 170px;
+  margin-top: -70px;
+}
+
+.button3 {
+  color: white;
+  font-weight: bold;
+  background-color: #85ff21;
+  border-radius: 20px;
+}
 
 .button2 :hover {
+  background-color: #51ad05 !important;
+}
+.button3 :hover {
+  background-color: #51ad05 !important;
+}
+.button4 :hover {
   background-color: #51ad05 !important;
 }
 
 #go :hover {
   background-color: #de1013 !important;
 }
-
+#go1 :hover {
+  background-color: #51ad05 !important;
+}
+#continue :hover {
+  background-color: #51ad05 !important;
+}
+#checkout :hover {
+  background-color: #51ad05 !important;
+}
 #plus :hover {
   cursor: pointer;
 }
@@ -94,4 +123,9 @@ a :hover {
 #zoom :hover {
   transform: scale(0.95) !important;
   cursor: pointer;
+}
+
+thead {
+  background-color: #de1013;
+  color: white;
 }

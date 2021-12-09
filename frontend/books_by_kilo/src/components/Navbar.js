@@ -1,13 +1,6 @@
 import React from "react";
 import { Component } from "react";
 import "../App.css";
-import {
-  ProSidebar,
-  SidebarHeader,
-  SidebarFooter,
-  SidebarContent,
-} from "react-pro-sidebar";
-import { FaGem, FaHeart } from "react-icons/fa";
 import "react-pro-sidebar/dist/css/styles.css";
 
 export default class Navbar extends Component {
@@ -16,7 +9,9 @@ export default class Navbar extends Component {
     cart: false,
   };
 
-  cart = () => {};
+  cart = () => {
+    window.location = "/cart";
+  };
   search = () => {
     console.log("clicked");
     this.setState({ searchToggle: !this.state.searchToggle });

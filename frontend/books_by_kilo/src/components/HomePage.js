@@ -16,6 +16,7 @@ const images = [
     url: "https://www.booksbykilo.in/media/staticimages/Homepage-main-banner2.png",
   },
 ];
+
 export default class HomePage extends Component {
   newBooks = () => {
     console.log("clicked");
