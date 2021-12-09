@@ -47,6 +47,10 @@ a :hover {
   color: red !important;
   cursor: pointer;
 }
+d :hover {
+  color: black !important;
+  cursor: pointer;
+}
 
 #search :hover {
   cursor: text;
