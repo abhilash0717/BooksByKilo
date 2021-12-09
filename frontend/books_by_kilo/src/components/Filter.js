@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-export default class NewBooks extends Component {
+export default class Filter extends Component {
     newBooks = () => {
         console.log("clicked");
         window.location = "/newBooks";
@@ -21,9 +21,6 @@ export default class NewBooks extends Component {
 render(){
     return(
         <>
-        <Navbar/>
-        <div className="row">
-            <div className="col-md-4">
 <h6 style={{textAlign:"left",marginLeft:"20px"}}>COLLECTION <c><span style={{color:"gray", marginLeft:"50px"}} onClick={()=>this.newBooks()}>clear</span></c></h6>
 
 <a>
@@ -75,12 +72,6 @@ render(){
               <p style={{textAlign:"left",marginLeft:"20px"}}>101-200</p>
               <p style={{textAlign:"left",marginLeft:"20px"}}>201-500</p>
               <p style={{textAlign:"left",marginLeft:"20px"}}>Over 500</p><br/>
-              </div>
-            <div className="col-md-8">
-<h1>Books</h1>
-</div>
-        </div>
-        <Footer/>
         </>
     )
 }
