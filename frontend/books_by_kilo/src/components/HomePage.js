@@ -153,7 +153,8 @@ export default class HomePage extends Component {
           </div>
         </div>
         <br />
-        <div>
+      <div className="row">
+     <c>  <div className="col-md-8">
           <SimpleImageSlider
             width={896}
             height={504}
@@ -164,7 +165,14 @@ export default class HomePage extends Component {
             autoPlay={true}
             autoPlayDelay={3.0}
           />
-        </div>
+        </div></c>
+      <c>  <div className="col-md-2" style={{paddingTop: "10px"}}>
+          <div className="row">
+          <img style={{width:"350px", borderRadius:"20px"}} src="https://png.pngitem.com/pimgs/s/523-5234612_google-reviews-hd-png-download.png"/>
+          </div>
+          <div className="row" style={{paddingTop: "50px"}}>
+          <img style={{width:"350px", borderRadius:"20px"}} src="https://growtraffic-bc85.kxcdn.com/blog/wp-content/uploads/2019/01/Amazon-5-Star-Review-Illustration.jpg"/>
+          </div></div></c></div>
         <br />
         <br />
 

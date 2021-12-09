@@ -129,3 +129,11 @@ thead {
   background-color: #de1013;
   color: white;
 }
+
+c:hover{
+  cursor: pointer;
+}
+c{
+  border-radius: 20px;
+}
+
