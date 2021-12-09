@@ -134,10 +134,9 @@ thead {
   color: white;
 }
 
-c:hover{
+c:hover {
   cursor: pointer;
 }
-c{
+c {
   border-radius: 20px;
 }
-
