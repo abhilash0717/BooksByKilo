@@ -1,6 +1,4 @@
 import { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
 export default class Filter extends Component {
     newBooks = () => {
         console.log("clicked");
