@@ -95,3 +95,10 @@ a :hover {
   transform: scale(0.95) !important;
   cursor: pointer;
 }
+
+c:hover{
+  cursor: pointer;
+}
+c{
+  border-radius: 20px;
+}
