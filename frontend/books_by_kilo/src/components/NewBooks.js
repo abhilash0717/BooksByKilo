@@ -23,13 +23,13 @@ render(){
         <>
         <Navbar/>
         <div className="row">
-            <div className="col-md-2" style={{marginLeft:"20px"}}>
-<h6>COLLECTION</h6>
+            <div className="col-md-2">
+<h6 style={{textAlign:"left",marginLeft:"20px"}}>COLLECTION</h6>
 <a>
               {" "}
 <span
                 className="nav-link"
-                style={{ color: "black"}}
+                style={{ color: "black", textAlign:"left"}}
                 onClick={() => this.newBooks()}
               >
                 New Books
@@ -39,7 +39,7 @@ render(){
               {" "}
               <span
                 className="nav-link"
-                style={{ color: "black"}}
+                style={{ color: "black", textAlign:"left"}}
                 onClick={() => this.premiumCollection()}
               >
                 Premium Collection
@@ -48,7 +48,7 @@ render(){
             <a>
               <span
                 className="nav-link"
-                style={{ color: "black"}}
+                style={{ color: "black", textAlign:"left"}}
                 onClick={() => this.classicCollection()}
               >
                 Classic Collection
@@ -57,7 +57,7 @@ render(){
             <a>
               <span
                 className="nav-link"
-                style={{ color: "black"}}
+                style={{ color: "black", textAlign:"left"}}
                 onClick={() => this.standardCollection()}
               >
                 Standard Collection
