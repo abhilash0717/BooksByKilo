@@ -29,6 +29,10 @@ export default class Navbar extends Component {
     console.log("clicked");
     window.location = "/contactUs";
   };
+  homePage = () => {
+    console.log("clicked");
+    window.location = "/";
+  };
   newBooks = () => {
     console.log("clicked");
     window.location = "/newBooks";
@@ -86,7 +90,7 @@ export default class Navbar extends Component {
             </span>
           </div>
           <navbar className="navbar navbar navbar-fixed-top">
-            <img src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" />
+          <span><img onClick={()=>this.homePage()} src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" /></span>
             <a>
               {" "}
               <span

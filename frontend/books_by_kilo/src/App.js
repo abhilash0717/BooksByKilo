@@ -10,6 +10,7 @@ import PremiumCollection from "./components/PremiumCollection";
 import StandardCollection from "./components/StandardCollection";
 import ClassicCollection from "./components/ClassicCollection";
 import Cart from "./components/Cart";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Link to="/classicCollection" />
           <Link to="/standardCollection" />
           <Link to="/cart" />
+          <Link to="/register" />
 
           <Routes>
             <Route exact path="/" exact element={<HomePage />} />
@@ -41,6 +43,7 @@ function App() {
               element={<StandardCollection />}
             />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </>
       </Router>
