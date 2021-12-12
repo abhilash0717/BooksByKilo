@@ -7,6 +7,7 @@ export default class Navbar extends Component {
   state = {
     searchToggle: false,
     cart: false,
+    selected1: true,
   };
 
   cart = () => {
@@ -35,6 +36,7 @@ export default class Navbar extends Component {
   };
   newBooks = () => {
     console.log("clicked");
+    window.localStorage.setItem("selected1", this.state.selected1);
     window.location = "/newBooks";
   };
   premiumCollection = () => {
@@ -90,7 +92,12 @@ export default class Navbar extends Component {
             </span>
           </div>
           <navbar className="navbar navbar navbar-fixed-top">
-          <span><img onClick={()=>this.homePage()} src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68" /></span>
+            <span>
+              <img
+                onClick={() => this.homePage()}
+                src="https://www.booksbykilo.in/media/staticimages/logo_t_5k.png?quality=68"
+              />
+            </span>
             <a>
               {" "}
               <span
