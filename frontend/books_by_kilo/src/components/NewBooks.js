@@ -4,13 +4,19 @@ import Navbar from "./Navbar";
 import Filter from "./Filter";
 import { AiOutlineShoppingCart } from "react-icons";
 export default class NewBooks extends Component {
+  state = {
+    selected1: true,
+    selected2: false,
+    selected3: false,
+    selected4: false,
+  };
   render() {
     return (
       <>
         <Navbar />
         <div className="row">
           <div className="col-md-3">
-            <Filter id={window.localStorage.getItem("selected1")} />
+            <Filter data={this.state} />
           </div>
           <div className="col-md-9">
             <div className="card">

@@ -3,13 +3,19 @@ import Filter from "./Filter";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 export default class StandardCollection extends Component {
+  state = {
+    selected1: false,
+    selected2: false,
+    selected3: false,
+    selected4: true,
+  };
   render() {
     return (
       <>
         <Navbar />
         <div className="row">
           <div className="col-md-3">
-            <Filter />
+            <Filter data={this.state} />
           </div>
           <div className="col-md-9">
             <div className="col-md-9">

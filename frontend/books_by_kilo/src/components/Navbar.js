@@ -7,48 +7,41 @@ export default class Navbar extends Component {
   state = {
     searchToggle: false,
     cart: false,
-    selected1: true,
+    selected1: false,
+    selected2: false,
   };
 
   cart = () => {
     window.location = "/cart";
   };
   search = () => {
-    console.log("clicked");
     this.setState({ searchToggle: !this.state.searchToggle });
   };
 
   faq = () => {
-    console.log("clicked");
     window.location = "/faq";
   };
   signin = () => {
-    console.log("clicked");
     window.location = "/login";
   };
   contact = () => {
-    console.log("clicked");
     window.location = "/contactUs";
   };
   homePage = () => {
-    console.log("clicked");
     window.location = "/";
   };
   newBooks = () => {
     console.log("clicked");
-    window.localStorage.setItem("selected1", this.state.selected1);
     window.location = "/newBooks";
   };
-  premiumCollection = () => {
-    console.log("clicked");
+  premiumCollection = (event) => {
+    event.preventDefault();
     window.location = "/premiumCollection";
   };
   classicCollection = () => {
-    console.log("clicked");
     window.location = "/classicCollection";
   };
   standardCollection = () => {
-    console.log("clicked");
     window.location = "/standardCollection";
   };
   render() {
@@ -113,7 +106,7 @@ export default class Navbar extends Component {
               <span
                 className="nav-link"
                 style={{ color: "black", marginLeft: "-130px" }}
-                onClick={() => this.premiumCollection()}
+                onClick={(event) => this.premiumCollection(event)}
               >
                 Premium Collection
               </span>

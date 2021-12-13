@@ -4,6 +4,12 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Filter from "./Filter";
 export default class ClassicCollection extends Component {
+  state = {
+    selected1: false,
+    selected2: false,
+    selected3: true,
+    selected4: false,
+  };
   render() {
     return (
       <>
@@ -11,7 +17,7 @@ export default class ClassicCollection extends Component {
         <div className="row">
           <div className="col-md-3">
             <div>
-              <Filter />
+              <Filter data={this.state} />
             </div>
           </div>
 

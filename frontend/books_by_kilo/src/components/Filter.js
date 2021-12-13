@@ -1,10 +1,10 @@
 import { Component } from "react";
 export default class Filter extends Component {
   state = {
-    selected1: window.localStorage.getItem("selected1"),
-    selected2: false,
-    selected3: false,
-    selected4: false,
+    selected1: this.props.data.selected1,
+    selected2: this.props.data.selected2,
+    selected3: this.props.data.selected3,
+    selected4: this.props.data.selected4,
     selected5: false,
     selected6: false,
     selected7: false,
@@ -14,6 +14,7 @@ export default class Filter extends Component {
     selected11: false,
     selected12: false,
   };
+
   newBooks = () => {
     this.setState({
       selected1: true,
@@ -21,9 +22,9 @@ export default class Filter extends Component {
       selected3: false,
       selected4: false,
     });
-    console.log(window.localStorage.getItem("selected1"));
   };
-  premiumCollection = () => {
+  premiumCollection = (event) => {
+    event.preventDefault();
     this.setState({
       selected1: false,
       selected2: true,
@@ -172,7 +173,7 @@ export default class Filter extends Component {
           <h6
             className="filter"
             style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
-            onClick={() => this.premiumCollection()}
+            onClick={(event) => this.premiumCollection(event)}
           >
             Premium Collection{" "}
             {this.state.selected2 ? (

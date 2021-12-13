@@ -3,6 +3,12 @@ import Filter from "./Filter";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 export default class PremiumCollection extends Component {
+  state = {
+    selected1: false,
+    selected2: true,
+    selected3: false,
+    selected4: false,
+  };
   render() {
     return (
       <>
@@ -10,7 +16,7 @@ export default class PremiumCollection extends Component {
         <div className="row">
           <div className="col-md-3">
             <div>
-              <Filter />
+              <Filter data={this.state} />
             </div>
           </div>
           <div className="col-md-9">
