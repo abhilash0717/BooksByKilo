@@ -10,7 +10,7 @@ export default class NewBooks extends Component {
         <Navbar />
         <div className="row">
           <div className="col-md-3">
-            <Filter id={window.localStorage.getItem("selected1")} />
+            <Filter />
           </div>
           <div className="col-md-9">
             <div className="card">

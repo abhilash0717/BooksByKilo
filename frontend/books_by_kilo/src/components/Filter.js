@@ -2,7 +2,7 @@ import { Component } from "react";
 export default class Filter extends Component {
   state = {
     selected1: window.localStorage.getItem("selected1"),
-    selected2: false,
+    selected2: window.localStorage.getItem("selected2"),
     selected3: false,
     selected4: false,
     selected5: false,
@@ -13,7 +13,8 @@ export default class Filter extends Component {
     selected10: false,
     selected11: false,
     selected12: false,
-  };
+};
+
   newBooks = () => {
     this.setState({
       selected1: true,
@@ -30,6 +31,7 @@ export default class Filter extends Component {
       selected3: false,
       selected4: false,
     });
+    window.localStorage.setItem("selected1", false);
   };
   classicCollection = () => {
     this.setState({

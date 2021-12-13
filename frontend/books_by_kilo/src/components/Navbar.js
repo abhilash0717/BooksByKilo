@@ -8,6 +8,7 @@ export default class Navbar extends Component {
     searchToggle: false,
     cart: false,
     selected1: true,
+    selected2: true,
   };
 
   cart = () => {
@@ -37,10 +38,15 @@ export default class Navbar extends Component {
   newBooks = () => {
     console.log("clicked");
     window.localStorage.setItem("selected1", this.state.selected1);
+    window.localStorage.setItem("selected2", false);
+    window.localStorage.setItem("selected3", false);
+    window.localStorage.setItem("selected4", false);
     window.location = "/newBooks";
   };
   premiumCollection = () => {
     console.log("clicked");
+    window.localStorage.setItem("selected1", false);
+    window.localStorage.setItem("selected2", this.state.selected2);
     window.location = "/premiumCollection";
   };
   classicCollection = () => {
