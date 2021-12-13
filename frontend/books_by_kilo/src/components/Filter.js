@@ -19,6 +19,7 @@ export default class Filter extends Component {
 render(){
     return(
         <>
+        <hr/>
 <h6 style={{textAlign:"left",marginLeft:"20px"}}>COLLECTION <c><span style={{color:"gray", marginLeft:"50px"}} onClick={()=>this.newBooks()}>clear</span></c></h6>
 
 <a>
