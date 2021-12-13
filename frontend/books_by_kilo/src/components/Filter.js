@@ -5,6 +5,14 @@ export default class Filter extends Component {
     selected2: false,
     selected3: false,
     selected4: false,
+    selected5: false,
+    selected6: false,
+    selected7: false,
+    selected8: false,
+    selected9: false,
+    selected10: false,
+    selected11: false,
+    selected12: false,
   };
   newBooks = () => {
     this.setState({
@@ -40,12 +48,95 @@ export default class Filter extends Component {
     });
   };
 
+  under100 = () => {
+    this.setState({
+      selected5: true,
+      selected6: false,
+      selected7: false,
+      selected8: false,
+    });
+  };
+
+  Between100to200 = () => {
+    this.setState({
+      selected5: false,
+      selected6: true,
+      selected7: false,
+      selected8: false,
+    });
+  };
+
+  Between200to500 = () => {
+    this.setState({
+      selected5: false,
+      selected6: false,
+      selected7: true,
+      selected8: false,
+    });
+  };
+  over500 = () => {
+    this.setState({
+      selected5: false,
+      selected6: false,
+      selected7: false,
+      selected8: true,
+    });
+  };
+  price101to200 = () => {
+    this.setState({
+      selected9: false,
+      selected10: true,
+      selected11: false,
+      selected12: false,
+    });
+  };
+  priceUnder100 = () => {
+    this.setState({
+      selected9: true,
+      selected10: false,
+      selected11: false,
+      selected12: false,
+    });
+  };
+  price201to500 = () => {
+    this.setState({
+      selected9: false,
+      selected10: false,
+      selected11: true,
+      selected12: false,
+    });
+  };
+  priceAbove500 = () => {
+    this.setState({
+      selected9: false,
+      selected10: false,
+      selected11: false,
+      selected12: true,
+    });
+  };
   clear = () => {
     this.setState({
       selected1: false,
       selected2: false,
       selected3: false,
       selected4: false,
+    });
+  };
+
+  weightClear = () => {
+    this.setState({
+      selected5: false,
+      selected6: false,
+      selected7: false,
+      selected8: false,
+    });
+  };
+  priceClear = () => {
+    this.setState({
+      selected9: false,
+      selected10: false,
+      selected11: false,
+      selected12: false,
     });
   };
   render() {
@@ -113,7 +204,7 @@ export default class Filter extends Component {
             ) : null}
           </h6>
         </div>
-        <hr />
+        <br />
         <h6
           style={{ textAlign: "left", marginLeft: "20px", marginLeft: "20px" }}
         >
@@ -121,60 +212,116 @@ export default class Filter extends Component {
           <c>
             <span
               style={{ color: "gray", marginLeft: "165px" }}
-              onClick={() => this.newBooks()}
+              onClick={() => this.weightClear()}
             >
               clear
             </span>
           </c>
         </h6>
-        <div className="filter">
-          <h6
-            className="filter"
-            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
-          >
-            Under 100gm
-          </h6>
-        </div>
-        <div className="filter">
-          <h6
-            className="filter"
-            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
-          >
-            100-200gm
-          </h6>
-        </div>
-        <div className="filter">
-          <h6
-            className="filter"
-            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
-          >
-            200-500gm
-          </h6>
-        </div>
-        <div className="filter">
-          <h6
-            className="filter"
-            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
-          >
-            Over 500gm
-          </h6>
-        </div>
         <hr />
+        <div className="filter">
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.under100()}
+          >
+            Under 100gm{" "}
+            {this.state.selected5 ? (
+              <i style={{ marginLeft: "135px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+        </div>
+        <div className="filter">
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.Between100to200()}
+          >
+            100-200gm{" "}
+            {this.state.selected6 ? (
+              <i style={{ marginLeft: "151px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+        </div>
+        <div className="filter">
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.Between200to500()}
+          >
+            200-500gm{" "}
+            {this.state.selected7 ? (
+              <i style={{ marginLeft: "148px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+        </div>
+        <div className="filter">
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.over500()}
+          >
+            Over 500gm{" "}
+            {this.state.selected8 ? (
+              <i style={{ marginLeft: "142px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+        </div>
+        <br />
         <h6 style={{ textAlign: "left", marginLeft: "20px" }}>
           PRICE{" "}
           <c>
             <span
               style={{ color: "gray", marginLeft: "182px" }}
-              onClick={() => this.newBooks()}
+              onClick={() => this.priceClear()}
             >
               clear
             </span>
           </c>
         </h6>
-        <p style={{ textAlign: "left", marginLeft: "20px" }}>Under Rs 100</p>
-        <p style={{ textAlign: "left", marginLeft: "20px" }}>101-200</p>
-        <p style={{ textAlign: "left", marginLeft: "20px" }}>201-500</p>
-        <p style={{ textAlign: "left", marginLeft: "20px" }}>Over 500</p>
+        <hr />
+        <div className="filter">
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.priceUnder100()}
+          >
+            Under Rs 100{" "}
+            {this.state.selected9 ? (
+              <i style={{ marginLeft: "142px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.price101to200()}
+          >
+            101-200 Rs{" "}
+            {this.state.selected10 ? (
+              <i style={{ marginLeft: "160px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.price201to500()}
+          >
+            201-500 Rs{" "}
+            {this.state.selected11 ? (
+              <i style={{ marginLeft: "157px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+          <h6
+            className="filter"
+            style={{ color: "gray", textAlign: "left", marginLeft: "20px" }}
+            onClick={() => this.priceAbove500()}
+          >
+            Over 500 Rs
+            {this.state.selected12 ? (
+              <i style={{ marginLeft: "153px" }} class="fa fa-check"></i>
+            ) : null}
+          </h6>
+        </div>
         <br />
       </>
     );
