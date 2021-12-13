@@ -7,8 +7,12 @@ export default class Navbar extends Component {
   state = {
     searchToggle: false,
     cart: false,
-    selected1: false,
-    selected2: false,
+
+    // selected1: false,
+    // selected2: false,
+
+    // selected1: true,
+    // selected2: true,
   };
 
   cart = () => {

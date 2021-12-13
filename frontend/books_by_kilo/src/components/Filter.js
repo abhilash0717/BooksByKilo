@@ -1,6 +1,7 @@
 import { Component } from "react";
 export default class Filter extends Component {
   state = {
+
     selected1: this.props.data.selected1,
     selected2: this.props.data.selected2,
     selected3: this.props.data.selected3,
@@ -13,7 +14,8 @@ export default class Filter extends Component {
     selected10: false,
     selected11: false,
     selected12: false,
-  };
+};
+
 
   newBooks = () => {
     this.setState({
@@ -31,6 +33,7 @@ export default class Filter extends Component {
       selected3: false,
       selected4: false,
     });
+    window.localStorage.setItem("selected1", false);
   };
   classicCollection = () => {
     this.setState({
