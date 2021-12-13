@@ -53,7 +53,6 @@ export default class Register extends Component {
             </d>
           </div>
         </form>
-
         <Footer />
       </>
     );

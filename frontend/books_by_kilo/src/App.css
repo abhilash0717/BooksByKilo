@@ -75,6 +75,13 @@ d :hover {
   background-color: #85ff21;
   border-radius: 20px;
 }
+
+.button5 {
+  color: white;
+  font-weight: bold;
+  background-color: #85ff21;
+  border-radius: 10px;
+}
 .button4 {
   color: white;
   font-weight: bold;
@@ -92,6 +99,10 @@ d :hover {
 }
 
 .button2 :hover {
+  background-color: #51ad05 !important;
+}
+
+.button5 :hover {
   background-color: #51ad05 !important;
 }
 .button3 :hover {
@@ -137,6 +148,19 @@ thead {
 c:hover {
   cursor: pointer;
 }
-c {
-  border-radius: 20px;
+/* c {
+ text-align: left;
+} */
+
+.filter :hover {
+  cursor: pointer !important;
+  color: #de1013 !important;
+}
+.filter1 :hover {
+  cursor: pointer;
+  max-width: 80px;
+}
+
+span ~ p :hover {
+  cursor: pointer !important;
 }
