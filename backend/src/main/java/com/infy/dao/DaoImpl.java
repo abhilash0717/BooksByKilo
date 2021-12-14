@@ -18,26 +18,28 @@ public class DaoImpl implements Dao {
 	@PersistenceContext
 	private EntityManager entityManager;
 
+	// For returning the books from DB, only those books having the collection as
+	// "New"
 	@Override
 	public List<Data> getNewBooks() {
-		String s = "select b.id, b.name, b.author, b.collection, b.price, b.weight, b.category, b.thumbnail from DataEntity b where b.collection =: tag";
+		String s = "select b from DataEntity b where b.collection =: tag";
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", "New");
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList();
-		Data data = new Data();
-		System.out.println(list);
+		List<Data> booksList = new ArrayList<>();
+		Data data = null;
 		if (list.size() > 0) {
-			System.out.println("Hello");
 			for (DataEntity book : list) {
+				data = new Data();
+				System.out.println(book.getName());
 				data.setId(book.getId());
-//				data.setName(book.getName());
-//				data.setAuthor(book.getAuthor());
-//				data.setCategory(book.getCategory());
-//				data.setCollection(book.getCollection());
-//				data.setPrice(book.getPrice());
-//				data.setThumbnail(book.getThumbnail());
-//				data.setWeight(book.getWeight());
+				data.setName(book.getName());
+				data.setAuthor(book.getAuthor());
+				data.setCategory(book.getCategory());
+				data.setCollection(book.getCollection());
+				data.setPrice(book.getPrice());
+				data.setThumbnail(book.getThumbnail());
+				data.setWeight(book.getWeight());
 
 				booksList.add(data);
 			}
