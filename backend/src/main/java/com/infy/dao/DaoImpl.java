@@ -1,5 +1,6 @@
 package com.infy.dao;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -11,29 +12,37 @@ import org.springframework.stereotype.Repository;
 import com.infy.entity.DataEntity;
 import com.infy.model.Data;
 
-
-
 @Repository
-public class DaoImpl implements Dao{
-	
+public class DaoImpl implements Dao {
+
 	@PersistenceContext
 	private EntityManager entityManager;
 
 	@Override
-	public List<String> find() {
-		String s = "select t.title from DataEntity t";
+	public List<Data> getNewBooks() {
+		String s = "select b.id, b.name, b.author, b.collection, b.price, b.weight, b.category, b.thumbnail from DataEntity b where b.collection =: tag";
 		Query q = entityManager.createQuery(s);
-//		q.setParameter("name", temp);
-		List<String> results = q.getResultList();
-		
-		if(results.size() > 0) {
-			System.out.println(results.size());
-			return results;
+		q.setParameter("tag", "New");
+		List<DataEntity> list = q.getResultList();
+		List<Data> booksList = new ArrayList();
+		Data data = new Data();
+		System.out.println(list);
+		if (list.size() > 0) {
+			System.out.println("Hello");
+			for (DataEntity book : list) {
+				data.setId(book.getId());
+//				data.setName(book.getName());
+//				data.setAuthor(book.getAuthor());
+//				data.setCategory(book.getCategory());
+//				data.setCollection(book.getCollection());
+//				data.setPrice(book.getPrice());
+//				data.setThumbnail(book.getThumbnail());
+//				data.setWeight(book.getWeight());
+
+				booksList.add(data);
+			}
 		}
-		return null;
-		
+		return booksList;
 	}
 
-	
-	
 }

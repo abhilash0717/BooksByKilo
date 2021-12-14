@@ -11,61 +11,77 @@ import javax.persistence.Table;
 public class DataEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String thumbnail;
 	private String name;
-	private int price;
-	private int weight;
+	private Integer price;
+	private Integer weight;
 	private String category;
 	private String author;
 	private String collection;
-	public int getId() {
+
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+
+	public void setId(Integer id) {
 		this.id = id;
 	}
+
 	public String getThumbnail() {
 		return thumbnail;
 	}
+
 	public void setThumbnail(String thumbnail) {
 		this.thumbnail = thumbnail;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPrice() {
+
+	public Integer getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
-	public int getWeight() {
+
+	public Integer getWeight() {
 		return weight;
 	}
-	public void setWeight(int weight) {
+
+	public void setWeight(Integer weight) {
 		this.weight = weight;
 	}
+
 	public String getCategory() {
 		return category;
 	}
+
 	public void setCategory(String category) {
 		this.category = category;
 	}
+
 	public String getAuthor() {
 		return author;
 	}
+
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+
 	public String getCollection() {
 		return collection;
 	}
+
 	public void setCollection(String collection) {
 		this.collection = collection;
 	}
-	    
+
 }

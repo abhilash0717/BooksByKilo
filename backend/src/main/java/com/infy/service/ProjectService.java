@@ -4,14 +4,8 @@ import java.util.List;
 
 import com.infy.model.Data;
 
-
 public interface ProjectService {
 
-	
+	List<Data> getNewBooks();
 
-	List<String> find();
-
-	
-
-	
 }

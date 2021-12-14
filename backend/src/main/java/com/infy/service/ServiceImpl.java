@@ -10,20 +10,17 @@ import org.springframework.stereotype.Service;
 import com.infy.dao.Dao;
 import com.infy.model.Data;
 
-
 @Service
 @Transactional
 public class ServiceImpl implements ProjectService {
-	
+
 	@Autowired
 	private Dao dao;
 
 	@Override
-	public List<String> find() {
+	public List<Data> getNewBooks() {
 		// TODO Auto-generated method stub
-		return dao.find();
+		return dao.getNewBooks();
 	}
-
-	
 
 }

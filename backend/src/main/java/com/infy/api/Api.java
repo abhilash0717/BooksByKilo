@@ -8,9 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
@@ -20,22 +17,22 @@ import com.infy.service.ProjectService;
 
 @CrossOrigin
 @RestController
-@RequestMapping(value = "/ApiTesting")
+@RequestMapping(value = "/BooksByKilo")
 public class Api {
-	
+
 	@Autowired
 	private ProjectService projectService;
-	
+
 	@Autowired
 	private Environment environment;
-	
-	@GetMapping(value = "/find")
-	public ResponseEntity<List<String>> validUser() throws Exception{
+
+	@GetMapping(value = "/NewBooks")
+	public ResponseEntity<List<Data>> getNewBooks() throws Exception {
 		try {
-			List<String> s = projectService.find();
-			ResponseEntity<List<String>> response = new ResponseEntity<List<String>>(s,HttpStatus.CREATED);
+			List<Data> books = projectService.getNewBooks();
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
 			return response;
-		}catch(Exception e) {
+		} catch (Exception e) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
 		}
 	}
