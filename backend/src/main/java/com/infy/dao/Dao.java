@@ -13,4 +13,6 @@ public interface Dao {
 
 	List<Data> getStandardBooks();
 
+	List<Data> getBooks();
+
 }

@@ -33,7 +33,7 @@ export default class Filter extends Component {
       selected3: false,
       selected4: false,
     });
-    window.location="/premiumCollection";
+    window.location = "/premiumCollection";
     window.localStorage.setItem("selected1", false);
   };
   classicCollection = () => {
@@ -43,7 +43,7 @@ export default class Filter extends Component {
       selected3: true,
       selected4: false,
     });
-    window.location = "/classicCollection"
+    window.location = "/classicCollection";
   };
   standardCollection = () => {
     this.setState({
@@ -52,7 +52,7 @@ export default class Filter extends Component {
       selected3: false,
       selected4: true,
     });
-    window.location="/standardCollection"
+    window.location = "/standardCollection";
   };
 
   under100 = () => {
@@ -121,30 +121,36 @@ export default class Filter extends Component {
       selected12: true,
     });
   };
-  clear = () => {
+  clear = (e) => {
+    e.preventDefault();
     this.setState({
       selected1: false,
       selected2: false,
       selected3: false,
       selected4: false,
     });
+    window.location = "/Books";
   };
 
-  weightClear = () => {
+  weightClear = (e) => {
+    e.preventDefault();
     this.setState({
       selected5: false,
       selected6: false,
       selected7: false,
       selected8: false,
     });
+    window.location = "/Books";
   };
-  priceClear = () => {
+  priceClear = (e) => {
+    e.preventDefault();
     this.setState({
       selected9: false,
       selected10: false,
       selected11: false,
       selected12: false,
     });
+    window.location = "/Books";
   };
   render() {
     return (
@@ -155,7 +161,7 @@ export default class Filter extends Component {
             <c>
               <span
                 style={{ color: "gray", marginLeft: "130px" }}
-                onClick={() => this.clear()}
+                onClick={(event) => this.clear(event)}
               >
                 clear
               </span>
@@ -219,7 +225,7 @@ export default class Filter extends Component {
           <c>
             <span
               style={{ color: "gray", marginLeft: "165px" }}
-              onClick={() => this.weightClear()}
+              onClick={(event) => this.weightClear(event)}
             >
               clear
             </span>
@@ -280,7 +286,7 @@ export default class Filter extends Component {
           <c>
             <span
               style={{ color: "gray", marginLeft: "182px" }}
-              onClick={() => this.priceClear()}
+              onClick={(event) => this.priceClear(event)}
             >
               clear
             </span>

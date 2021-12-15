@@ -14,4 +14,6 @@ public interface ProjectService {
 
 	List<Data> getStandardBooks();
 
+	List<Data> getBooks();
+
 }

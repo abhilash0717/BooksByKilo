@@ -21200,3 +21200,104 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: dataEntity is no
 15-Dec-2021 12:47:16 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 15-Dec-2021 12:47:16 INFO - Initializing Servlet 'dispatcherServlet'
 15-Dec-2021 12:47:16 INFO - Completed initialization in 1 ms
+15-Dec-2021 14:41:16 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 17832 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+15-Dec-2021 14:41:16 INFO - No active profile set, falling back to default profiles: default
+15-Dec-2021 14:41:20 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-Dec-2021 14:41:20 INFO - Finished Spring Data repository scanning in 46 ms. Found 0 JPA repository interfaces.
+15-Dec-2021 14:41:25 INFO - Tomcat initialized with port(s): 4000 (http)
+15-Dec-2021 14:41:25 INFO - Initializing ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 14:41:25 INFO - Starting service [Tomcat]
+15-Dec-2021 14:41:25 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+15-Dec-2021 14:41:25 INFO - Initializing Spring embedded WebApplicationContext
+15-Dec-2021 14:41:25 INFO - Root WebApplicationContext: initialization completed in 8634 ms
+15-Dec-2021 14:41:26 INFO - HikariPool-1 - Starting...
+15-Dec-2021 14:41:27 INFO - HikariPool-1 - Start completed.
+15-Dec-2021 14:41:28 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Dec-2021 14:41:28 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+15-Dec-2021 14:41:29 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15-Dec-2021 14:41:30 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15-Dec-2021 14:41:31 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15-Dec-2021 14:41:31 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-Dec-2021 14:41:32 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-Dec-2021 14:41:33 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+15-Dec-2021 14:41:35 INFO - Starting ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 14:41:35 INFO - Tomcat started on port(s): 4000 (http) with context path ''
+15-Dec-2021 14:41:35 INFO - Started MainApplication in 21.104 seconds (JVM running for 23.9)
+15-Dec-2021 17:23:48 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 9992 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+15-Dec-2021 17:23:48 INFO - No active profile set, falling back to default profiles: default
+15-Dec-2021 17:23:52 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-Dec-2021 17:23:52 INFO - Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+15-Dec-2021 17:24:00 INFO - Tomcat initialized with port(s): 4000 (http)
+15-Dec-2021 17:24:00 INFO - Initializing ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 17:24:00 INFO - Starting service [Tomcat]
+15-Dec-2021 17:24:00 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+15-Dec-2021 17:24:01 INFO - Initializing Spring embedded WebApplicationContext
+15-Dec-2021 17:24:01 INFO - Root WebApplicationContext: initialization completed in 12422 ms
+15-Dec-2021 17:24:03 INFO - HikariPool-1 - Starting...
+15-Dec-2021 17:24:06 INFO - HikariPool-1 - Start completed.
+15-Dec-2021 17:24:07 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Dec-2021 17:24:07 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+15-Dec-2021 17:24:08 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15-Dec-2021 17:24:09 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15-Dec-2021 17:24:13 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15-Dec-2021 17:24:13 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-Dec-2021 17:24:14 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-Dec-2021 17:24:16 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+15-Dec-2021 17:24:20 INFO - Starting ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 17:24:20 INFO - Tomcat started on port(s): 4000 (http) with context path ''
+15-Dec-2021 17:24:20 INFO - Started MainApplication in 35.001 seconds (JVM running for 39.834)
+15-Dec-2021 17:48:25 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-Dec-2021 17:48:25 INFO - Initializing Servlet 'dispatcherServlet'
+15-Dec-2021 17:48:27 INFO - Completed initialization in 1704 ms
+15-Dec-2021 18:23:28 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 7164 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+15-Dec-2021 18:23:28 INFO - No active profile set, falling back to default profiles: default
+15-Dec-2021 18:23:55 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-Dec-2021 18:23:56 INFO - Finished Spring Data repository scanning in 72 ms. Found 0 JPA repository interfaces.
+15-Dec-2021 18:24:28 INFO - Tomcat initialized with port(s): 4000 (http)
+15-Dec-2021 18:24:28 INFO - Initializing ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 18:24:28 INFO - Starting service [Tomcat]
+15-Dec-2021 18:24:28 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+15-Dec-2021 18:24:30 INFO - Initializing Spring embedded WebApplicationContext
+15-Dec-2021 18:24:30 INFO - Root WebApplicationContext: initialization completed in 59582 ms
+15-Dec-2021 18:24:34 INFO - HikariPool-1 - Starting...
+15-Dec-2021 18:24:47 INFO - HikariPool-1 - Start completed.
+15-Dec-2021 18:24:49 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Dec-2021 18:24:51 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+15-Dec-2021 18:24:58 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15-Dec-2021 18:25:00 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15-Dec-2021 18:25:16 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15-Dec-2021 18:25:16 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-Dec-2021 18:25:18 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-Dec-2021 18:25:23 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+15-Dec-2021 18:25:35 INFO - Starting ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 18:25:39 INFO - Tomcat started on port(s): 4000 (http) with context path ''
+15-Dec-2021 18:25:39 INFO - Started MainApplication in 134.837 seconds (JVM running for 141.672)
+15-Dec-2021 18:27:18 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-Dec-2021 18:27:18 INFO - Initializing Servlet 'dispatcherServlet'
+15-Dec-2021 18:27:18 INFO - Completed initialization in 16 ms
+15-Dec-2021 18:30:03 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 10004 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+15-Dec-2021 18:30:06 INFO - No active profile set, falling back to default profiles: default
+15-Dec-2021 18:30:11 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-Dec-2021 18:30:11 INFO - Finished Spring Data repository scanning in 31 ms. Found 0 JPA repository interfaces.
+15-Dec-2021 18:30:27 INFO - Tomcat initialized with port(s): 4000 (http)
+15-Dec-2021 18:30:27 INFO - Initializing ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 18:30:27 INFO - Starting service [Tomcat]
+15-Dec-2021 18:30:27 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+15-Dec-2021 18:30:29 INFO - Initializing Spring embedded WebApplicationContext
+15-Dec-2021 18:30:29 INFO - Root WebApplicationContext: initialization completed in 22729 ms
+15-Dec-2021 18:30:32 INFO - HikariPool-1 - Starting...
+15-Dec-2021 18:30:34 INFO - HikariPool-1 - Start completed.
+15-Dec-2021 18:30:35 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-Dec-2021 18:30:36 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+15-Dec-2021 18:30:39 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15-Dec-2021 18:30:41 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15-Dec-2021 18:30:51 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15-Dec-2021 18:30:51 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-Dec-2021 18:30:53 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-Dec-2021 18:30:57 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+15-Dec-2021 18:31:00 INFO - Starting ProtocolHandler ["http-nio-4000"]
+15-Dec-2021 18:31:01 INFO - Tomcat started on port(s): 4000 (http) with context path ''
+15-Dec-2021 18:31:01 INFO - Started MainApplication in 60.312 seconds (JVM running for 65.902)
+15-Dec-2021 18:43:16 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-Dec-2021 18:43:16 INFO - Initializing Servlet 'dispatcherServlet'
+15-Dec-2021 18:43:16 INFO - Completed initialization in 20 ms

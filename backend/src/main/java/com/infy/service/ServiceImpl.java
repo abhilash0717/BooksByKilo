@@ -41,4 +41,10 @@ public class ServiceImpl implements ProjectService {
 		return dao.getStandardBooks();
 	}
 
+	@Override
+	public List<Data> getBooks() {
+		// TODO Auto-generated method stub
+		return dao.getBooks();
+	}
+
 }

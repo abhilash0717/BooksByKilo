@@ -69,4 +69,16 @@ public class Api {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
 		}
 	}
+
+	@GetMapping(value = "/Books")
+	public ResponseEntity<List<Data>> getBooks() throws Exception {
+		try {
+			List<Data> books = projectService.getBooks();
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
 }
