@@ -42,7 +42,7 @@ export default class NewBooks extends Component {
                   <div
                     key={key}
                     className="card"
-                    style={{ marginRight: "20px" }}
+                    style={{ marginRight: "20px",height:"450px",marginBottom:"20px" }}
                   >
                     <div className="card-body">
                       <img
