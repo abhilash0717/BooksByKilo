@@ -27,10 +27,9 @@ public class DaoImpl implements Dao {
 		q.setParameter("tag", "New");
 		List<DataEntity> list = q.getResultList();
 		List<Data> booksList = new ArrayList<>();
-		Data data = null;
 		if (list.size() > 0) {
 			for (DataEntity book : list) {
-				data = new Data();
+				Data data = new Data();
 				System.out.println(book.getName());
 				data.setId(book.getId());
 				data.setName(book.getName());
@@ -54,10 +53,9 @@ public class DaoImpl implements Dao {
 		q.setParameter("tag", "Premium");
 		List<DataEntity> list = q.getResultList();
 		List<Data> booksList = new ArrayList<>();
-		Data data = null;
 		if (list.size() > 0) {
 			for (DataEntity book : list) {
-				data = new Data();
+				Data data = new Data();
 				System.out.println(book.getName());
 				data.setId(book.getId());
 				data.setName(book.getName());
@@ -81,10 +79,9 @@ public class DaoImpl implements Dao {
 		q.setParameter("tag", "Classic");
 		List<DataEntity> list = q.getResultList();
 		List<Data> booksList = new ArrayList<>();
-		Data data = null;
 		if (list.size() > 0) {
 			for (DataEntity book : list) {
-				data = new Data();
+				Data data = new Data();
 				System.out.println(book.getName());
 				data.setId(book.getId());
 				data.setName(book.getName());
@@ -108,10 +105,9 @@ public class DaoImpl implements Dao {
 		q.setParameter("tag", "Standard");
 		List<DataEntity> list = q.getResultList();
 		List<Data> booksList = new ArrayList<>();
-		Data data = null;
 		if (list.size() > 0) {
 			for (DataEntity book : list) {
-				data = new Data();
+				Data data = new Data();
 				System.out.println(book.getName());
 				data.setId(book.getId());
 				data.setName(book.getName());
