@@ -8,4 +8,10 @@ public interface ProjectService {
 
 	List<Data> getNewBooks();
 
+	List<Data> getPremiumBooks();
+
+	List<Data> getClassicBooks();
+
+	List<Data> getStandardBooks();
+
 }

@@ -23,4 +23,22 @@ public class ServiceImpl implements ProjectService {
 		return dao.getNewBooks();
 	}
 
+	@Override
+	public List<Data> getPremiumBooks() {
+		// TODO Auto-generated method stub
+		return dao.getPremiumBooks();
+	}
+
+	@Override
+	public List<Data> getClassicBooks() {
+		// TODO Auto-generated method stub
+		return dao.getClassicBooks();
+	}
+
+	@Override
+	public List<Data> getStandardBooks() {
+		// TODO Auto-generated method stub
+		return dao.getStandardBooks();
+	}
+
 }
