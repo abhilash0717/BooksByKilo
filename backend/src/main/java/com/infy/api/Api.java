@@ -36,4 +36,37 @@ public class Api {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
 		}
 	}
+
+	@GetMapping(value = "/PremiumBooks")
+	public ResponseEntity<List<Data>> getPremiumBooks() throws Exception {
+		try {
+			List<Data> books = projectService.getPremiumBooks();
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
+	@GetMapping(value = "/ClassicBooks")
+	public ResponseEntity<List<Data>> getClassicBooks() throws Exception {
+		try {
+			List<Data> books = projectService.getClassicBooks();
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
+	@GetMapping(value = "/StandardBooks")
+	public ResponseEntity<List<Data>> getStandardBooks() throws Exception {
+		try {
+			List<Data> books = projectService.getStandardBooks();
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
 }

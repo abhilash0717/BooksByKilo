@@ -47,4 +47,85 @@ public class DaoImpl implements Dao {
 		return booksList;
 	}
 
+	@Override
+	public List<Data> getPremiumBooks() {
+		String s = "select b from DataEntity b where b.collection=: tag";
+		Query q = entityManager.createQuery(s);
+		q.setParameter("tag", "Premium");
+		List<DataEntity> list = q.getResultList();
+		List<Data> booksList = new ArrayList<>();
+		Data data = null;
+		if (list.size() > 0) {
+			for (DataEntity book : list) {
+				data = new Data();
+				System.out.println(book.getName());
+				data.setId(book.getId());
+				data.setName(book.getName());
+				data.setAuthor(book.getAuthor());
+				data.setCategory(book.getCategory());
+				data.setCollection(book.getCollection());
+				data.setPrice(book.getPrice());
+				data.setThumbnail(book.getThumbnail());
+				data.setWeight(book.getWeight());
+
+				booksList.add(data);
+			}
+		}
+		return booksList;
+	}
+
+	@Override
+	public List<Data> getClassicBooks() {
+		String s = "select b from DataEntity b where b.collection=: tag";
+		Query q = entityManager.createQuery(s);
+		q.setParameter("tag", "Classic");
+		List<DataEntity> list = q.getResultList();
+		List<Data> booksList = new ArrayList<>();
+		Data data = null;
+		if (list.size() > 0) {
+			for (DataEntity book : list) {
+				data = new Data();
+				System.out.println(book.getName());
+				data.setId(book.getId());
+				data.setName(book.getName());
+				data.setAuthor(book.getAuthor());
+				data.setCategory(book.getCategory());
+				data.setCollection(book.getCollection());
+				data.setPrice(book.getPrice());
+				data.setThumbnail(book.getThumbnail());
+				data.setWeight(book.getWeight());
+
+				booksList.add(data);
+			}
+		}
+		return booksList;
+	}
+
+	@Override
+	public List<Data> getStandardBooks() {
+		String s = "select b from DataEntity b where b.collection=: tag";
+		Query q = entityManager.createQuery(s);
+		q.setParameter("tag", "Standard");
+		List<DataEntity> list = q.getResultList();
+		List<Data> booksList = new ArrayList<>();
+		Data data = null;
+		if (list.size() > 0) {
+			for (DataEntity book : list) {
+				data = new Data();
+				System.out.println(book.getName());
+				data.setId(book.getId());
+				data.setName(book.getName());
+				data.setAuthor(book.getAuthor());
+				data.setCategory(book.getCategory());
+				data.setCollection(book.getCollection());
+				data.setPrice(book.getPrice());
+				data.setThumbnail(book.getThumbnail());
+				data.setWeight(book.getWeight());
+
+				booksList.add(data);
+			}
+		}
+		return booksList;
+	}
+
 }
