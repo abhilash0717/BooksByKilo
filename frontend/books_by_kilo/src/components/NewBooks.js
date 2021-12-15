@@ -37,12 +37,11 @@ export default class NewBooks extends Component {
           </div>
           <div className="col-md-9">
             <div className="row">
-              <div className="col-md-3">
                 {books.map((book, key) => {
                   return (
-                    <div key={key} className="card">
+                    <div key={key} className="card" style={{marginLeft:"20px",height:"450px",marginBottom:"20px"}}>
                       <div className="card-body">
-                        <img style={{ width: "100%" }} src={book.thumbnail} />
+                        <img style={{ width: "100%",height:"50%" }} src={book.thumbnail} />
                         <h5 style={{ textAlign: "left" }}>{book.name}</h5>
                         <br />
                         <div className="row">
@@ -67,7 +66,6 @@ export default class NewBooks extends Component {
                   );
                 })}
               </div>
-            </div>
           </div>
         </div>
         <Footer />
