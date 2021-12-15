@@ -3,13 +3,29 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Filter from "./Filter";
 import { AiOutlineShoppingCart } from "react-icons";
+import axios from "axios";
+
+const NewBooksUrl = "http://localhost:4000/BooksByKilo/NewBooks";
+
 export default class NewBooks extends Component {
   state = {
     selected1: true,
     selected2: false,
     selected3: false,
     selected4: false,
+    books: [],
   };
+
+  componentDidMount() {
+    axios
+      .get(NewBooksUrl)
+      .then((response) => {
+        console.log(response);
+        this.setState({ books: response.data });
+      })
+      .catch();
+  }
+
   render() {
     return (
       <>
