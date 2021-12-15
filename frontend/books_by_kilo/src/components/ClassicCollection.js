@@ -55,7 +55,7 @@ export default class ClassicCollection extends Component {
                         style={{ width: "100%", height: "50%" }}
                         src={book.thumbnail}
                       />
-                      <h5 style={{ textAlign: "left" }}>{book.title}</h5>
+                      <h5 style={{ textAlign: "left" }}>{book.name}</h5>
                       <br />
                       <div className="row">
                         <div className="col-md-8">
