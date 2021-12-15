@@ -33,6 +33,7 @@ export default class Filter extends Component {
       selected3: false,
       selected4: false,
     });
+    window.location="/premiumCollection";
     window.localStorage.setItem("selected1", false);
   };
   classicCollection = () => {
@@ -51,6 +52,7 @@ export default class Filter extends Component {
       selected3: false,
       selected4: true,
     });
+    window.location="/standardCollection"
   };
 
   under100 = () => {
