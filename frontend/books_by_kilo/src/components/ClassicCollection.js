@@ -3,14 +3,31 @@ import "../App.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Filter from "./Filter";
+import axios from "axios";
+
+const ClassicBooksUrl = "http://localhost:4000/BooksByKilo/ClassicBooks";
+
 export default class ClassicCollection extends Component {
   state = {
     selected1: false,
     selected2: false,
     selected3: true,
     selected4: false,
+    books: [],
   };
+
+  componentDidMount() {
+    axios
+      .get(ClassicBooksUrl)
+      .then((response) => {
+        console.log(response);
+        this.setState({ books: response.data });
+      })
+      .catch();
+  }
   render() {
+    var { books } = this.state;
+
     return (
       <>
         <Navbar />
@@ -22,34 +39,45 @@ export default class ClassicCollection extends Component {
           </div>
 
           <div className="col-md-9">
-            <div className="col-md-9">
-              <div className="card">
-                <div className="card-body">
-                  <img
-                    style={{ width: "100%" }}
-                    src="https://www.booksbykilo.in/media/staticimages/Homepage-informative-activity-Books.jpg"
-                  />
-                  <h5 style={{ textAlign: "left" }}>Title</h5>
-                  <br />
-                  <div className="row">
-                    <div className="col-md-8">
-                      <p style={{ textAlign: "left" }}>220 gm</p>
-                      <p style={{ textAlign: "left" }}>220 Rs</p>
-                    </div>
-                    <div className="col-md-4">
-                      <div className="button5">
-                        <button
-                          className="btn button5"
-                          onClick={() => this.newBooks()}
-                        >
-                          {" "}
-                          <i className="fa fa-shopping-cart fa-xl"></i>
-                        </button>
+            <div className="row">
+              {books.map((book) => {
+                return (
+                  <div
+                    className="card"
+                    style={{
+                      marginLeft: "20px",
+                      height: "450px",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    <div className="card-body">
+                      <img
+                        style={{ width: "100%", height: "50%" }}
+                        src={book.thumbnail}
+                      />
+                      <h5 style={{ textAlign: "left" }}>{book.title}</h5>
+                      <br />
+                      <div className="row">
+                        <div className="col-md-8">
+                          <p style={{ textAlign: "left" }}>{book.weight} gm</p>
+                          <p style={{ textAlign: "left" }}>{book.price} Rs</p>
+                        </div>
+                        <div className="col-md-4">
+                          <div className="button5">
+                            <button
+                              className="btn button5"
+                              onClick={() => this.newBooks()}
+                            >
+                              {" "}
+                              <i className="fa fa-shopping-cart fa-xl"></i>
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
           </div>
         </div>

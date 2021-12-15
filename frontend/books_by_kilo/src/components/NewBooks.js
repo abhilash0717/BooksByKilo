@@ -37,35 +37,42 @@ export default class NewBooks extends Component {
           </div>
           <div className="col-md-9">
             <div className="row">
-                {books.map((book, key) => {
-                  return (
-                    <div key={key} className="card" style={{marginLeft:"20px",height:"450px",marginBottom:"20px"}}>
-                      <div className="card-body">
-                        <img style={{ width: "100%",height:"50%" }} src={book.thumbnail} />
-                        <h5 style={{ textAlign: "left" }}>{book.name}</h5>
-                        <br />
-                        <div className="row">
-                          <div className="col-md-8">
-                            <p style={{ textAlign: "left" }}>{book.weight}</p>
-                            <p style={{ textAlign: "left" }}>{book.price}</p>
-                          </div>
-                          <div className="col-md-4">
-                            <div className="button5">
-                              <button
-                                className="btn button5"
-                                onClick={() => this.newBooks()}
-                              >
-                                {" "}
-                                <i className="fa fa-shopping-cart fa-xl"></i>
-                              </button>
-                            </div>
+              {books.map((book, key) => {
+                return (
+                  <div
+                    key={key}
+                    className="card"
+                    style={{ marginRight: "20px" }}
+                  >
+                    <div className="card-body">
+                      <img
+                        style={{ width: "100%", height: "50%" }}
+                        src={book.thumbnail}
+                      />
+                      <h5 style={{ textAlign: "left" }}>{book.name}</h5>
+                      <br />
+                      <div className="row">
+                        <div className="col-md-8">
+                          <p style={{ textAlign: "left" }}>{book.weight}</p>
+                          <p style={{ textAlign: "left" }}>{book.price}</p>
+                        </div>
+                        <div className="col-md-4">
+                          <div className="button5">
+                            <button
+                              className="btn button5"
+                              onClick={() => this.newBooks()}
+                            >
+                              {" "}
+                              <i className="fa fa-shopping-cart fa-xl"></i>
+                            </button>
                           </div>
                         </div>
                       </div>
                     </div>
-                  );
-                })}
-              </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
         <Footer />

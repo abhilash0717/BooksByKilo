@@ -43,6 +43,7 @@ export default class Filter extends Component {
       selected3: true,
       selected4: false,
     });
+    window.location = "/classicCollection"
   };
   standardCollection = () => {
     this.setState({
