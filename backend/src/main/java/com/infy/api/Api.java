@@ -82,15 +82,28 @@ public class Api {
 		}
 	}
 
-	@GetMapping(value = "/Filter/{collection}/{weight}")
-	public ResponseEntity<List<Data>> getBooksUnder100(@PathVariable String collection, @PathVariable String weight)
-			throws Exception {
+	@GetMapping(value = "/Filter/weight/{collection}/{weight}")
+	public ResponseEntity<List<Data>> getBooksBasedOnWeight(@PathVariable String collection,
+			@PathVariable String weight) throws Exception {
 		try {
-			List<Data> books = projectService.getBooksUnder100(collection, weight);
+			List<Data> books = projectService.getBooksBasedOnWeight(collection, weight);
 			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
 			return response;
 		} catch (Exception e) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
 		}
 	}
+
+	@GetMapping(value = "/Filter/price/{collection}/{price}")
+	public ResponseEntity<List<Data>> getBooksBasedOnPrice(@PathVariable String collection, @PathVariable String price)
+			throws Exception {
+		try {
+			List<Data> books = projectService.getBooksBasedOnPrice(collection, price);
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
 }

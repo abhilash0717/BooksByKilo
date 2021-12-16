@@ -12,6 +12,14 @@ export default class Books extends Component {
     selected2: false,
     selected3: false,
     selected4: false,
+    selected5: false,
+    selected6: false,
+    selected7: false,
+    selected8: false,
+    selected9: false,
+    selected10: false,
+    selected11: false,
+    selected12: false,
     books: [],
   };
 

@@ -95,20 +95,69 @@ public class DaoImpl implements Dao {
 	}
 
 	@Override
-	public List<Data> getBooksUnder100(String collection, String weight) {
+	public List<Data> getBooksBasedOnWeight(String collection, String weight) {
+		List<DataEntity> dummy = null;
 		// TODO Auto-generated method stub
-		int value = 0;
 		if (weight.equalsIgnoreCase("hundred")) {
-			value = 100;
-		} else {
-			value = 0;
+			String s = "select b from DataEntity b where b.collection=: tag and b.weight<100";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		} else if (weight.equalsIgnoreCase("100TO200")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.weight between 100 and 200";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		} else if (weight.equalsIgnoreCase("201TO500")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.weight between 201 and 500";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		} else if (weight.equalsIgnoreCase("Over500")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.weight > 500";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
 		}
-		String s = "select b from DataEntity b where b.collection=: tag and b.weight<=100";
-		Query q = entityManager.createQuery(s);
-		q.setParameter("tag", collection);
-		List<DataEntity> list = q.getResultList();
 
-		return gettingBooksFromDb(list);
+		return gettingBooksFromDb(dummy);
+	}
+
+	@Override
+	public List<Data> getBooksBasedOnPrice(String collection, String price) {
+		List<DataEntity> dummy = null;
+		// TODO Auto-generated method stub
+		if (price.equalsIgnoreCase("hundred")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.price<100";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		} else if (price.equalsIgnoreCase("100TO200")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.price between 100 and 200";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		} else if (price.equalsIgnoreCase("201TO500")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.price between 201 and 500";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		} else if (price.equalsIgnoreCase("Over500")) {
+			String s = "select b from DataEntity b where b.collection=: tag and b.price > 500";
+			Query q = entityManager.createQuery(s);
+			q.setParameter("tag", collection);
+			List<DataEntity> list = q.getResultList();
+			return gettingBooksFromDb(list);
+		}
+
+		return gettingBooksFromDb(dummy);
 	}
 
 }
