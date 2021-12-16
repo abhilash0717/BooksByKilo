@@ -15,6 +15,8 @@ public interface Dao {
 
 	List<Data> getBooks();
 
-	List<Data> getBooksUnder100(String collection, String weight);
+	List<Data> getBooksBasedOnWeight(String collection, String weight);
+
+	List<Data> getBooksBasedOnPrice(String collection, String price);
 
 }

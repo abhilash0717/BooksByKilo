@@ -22,6 +22,10 @@ insert into Books values(6,"http://books.google.com/books/content?id=Ga7RBgAAQBA
 insert into Books values(7,"http://books.google.com/books/content?id=Fe5kAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","American Youth on Screen", 300, 239, "Teen Fiction",  "Timothy Shary", "Premium" );
 insert into Books values(8,"http://books.google.com/books/content?id=EwPy91X5FvYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api","The Secret to Teen Power", 400, 239, "Teen Fiction",  "Paul Harrington", "Classic" );
 insert into Books values(9,"http://books.google.com/books/content?id=qXXHAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api","Literary Fiction", 90, 539, "Non Fiction",  "Geir Farner", "New" );
-insert into Books values(10,"http://books.google.com/books/content?id=fx0itwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","The 100 Best Nonfiction Books of All Time", 501, 239, "Non Fiction",  "Robert McCrum", "Classic" );
+insert into Books values(10,"http://books.google.com/books/content?id=fx0itwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","The 100 Best Nonfiction Books of All Time", 99, 101, "Non Fiction",  "Robert McCrum", "New" );
+insert into Books values(11,"http://books.google.com/books/content?id=fx0itwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","The 100 Best Nonfiction Books of All Time", 125, 123, "Non Fiction",  "Robert McCrum", "New" );
+insert into Books values(12,"http://books.google.com/books/content?id=fx0itwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","The 100 Best Nonfiction Books of All Time", 150, 125, "Non Fiction",  "Robert McCrum", "New" );
+insert into Books values(13,"http://books.google.com/books/content?id=fx0itwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","The 100 Best Nonfiction Books of All Time", 201, 239, "Non Fiction",  "Robert McCrum", "New" );
+insert into Books values(14,"http://books.google.com/books/content?id=fx0itwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api","The 100 Best Nonfiction Books of All Time", 501, 539, "Non Fiction",  "Robert McCrum", "New" );
 
 select * from Books;

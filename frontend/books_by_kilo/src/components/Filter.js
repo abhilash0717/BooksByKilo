@@ -1,6 +1,6 @@
 import { Component } from "react";
 import axios from "axios";
-const WeightUnder100="http://localhost:4000/BooksByKilo/Filter";
+const WeightUnder100 = "http://localhost:4001/BooksByKilo/Filter";
 export default class Filter extends Component {
   state = {
     selected1: this.props.data.selected1,
@@ -15,6 +15,7 @@ export default class Filter extends Component {
     selected10: false,
     selected11: false,
     selected12: false,
+    under100Books: [],
   };
 
   newBooks = () => {
@@ -36,7 +37,6 @@ export default class Filter extends Component {
       selected4: false,
     });
     window.location = "/premiumCollection";
-    window.localStorage.setItem("selected1", false);
   };
   classicCollection = () => {
     this.setState({
@@ -64,11 +64,21 @@ export default class Filter extends Component {
       selected7: false,
       selected8: false,
     });
-    axios.get(WeightUnder100.concat("/"+ this.props.data.collection + "/"+ "hundred"))
-    .then((response)=>{
-      console.log(response.data)
-    })
-    .catch()
+    axios
+      .get(
+        WeightUnder100.concat(
+          "/" + this.props.data.collection + "/" + "hundred"
+        )
+      )
+      .then((response) => {
+        console.log(response.data);
+        this.setState({ under100Books: response.data });
+      })
+      .catch();
+
+    if (this.props.data.collection === "New") {
+      window.location = "/newBooks?books=${this.state.under100Books}";
+    }
   };
 
   Between100to200 = () => {
@@ -150,7 +160,7 @@ export default class Filter extends Component {
     window.location = "/Books";
   };
   priceClear = (e) => {
-    e .preventDefault();
+    e.preventDefault();
     this.setState({
       selected9: false,
       selected10: false,
