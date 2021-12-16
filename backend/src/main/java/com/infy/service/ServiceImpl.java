@@ -47,4 +47,10 @@ public class ServiceImpl implements ProjectService {
 		return dao.getBooks();
 	}
 
+	@Override
+	public List<Data> getBooksUnder100(String collection, String weight) {
+		// TODO Auto-generated method stub
+		return dao.getBooksUnder100(collection, weight);
+	}
+
 }

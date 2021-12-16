@@ -16,4 +16,6 @@ public interface ProjectService {
 
 	List<Data> getBooks();
 
+	List<Data> getBooksUnder100(String collection, String weight);
+
 }

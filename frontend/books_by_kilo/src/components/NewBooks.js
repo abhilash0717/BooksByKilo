@@ -14,6 +14,7 @@ export default class NewBooks extends Component {
     selected3: false,
     selected4: false,
     books: [],
+    collection:"New",
   };
 
   componentDidMount() {

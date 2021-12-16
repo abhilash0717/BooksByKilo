@@ -1,4 +1,6 @@
 import { Component } from "react";
+import axios from "axios";
+const WeightUnder100="http://localhost:4000/BooksByKilo/Filter";
 export default class Filter extends Component {
   state = {
     selected1: this.props.data.selected1,
@@ -62,6 +64,11 @@ export default class Filter extends Component {
       selected7: false,
       selected8: false,
     });
+    axios.get(WeightUnder100.concat("/"+ this.props.data.collection + "/"+ "hundred"))
+    .then((response)=>{
+      console.log(response.data)
+    })
+    .catch()
   };
 
   Between100to200 = () => {

@@ -153,4 +153,36 @@ public class DaoImpl implements Dao {
 		return booksList;
 	}
 
+	@Override
+	public List<Data> getBooksUnder100(String collection, String weight) {
+		// TODO Auto-generated method stub
+		int value = 0;
+		if (weight.equalsIgnoreCase("hundred")) {
+			value = 100;
+		} else {
+			value = 0;
+		}
+		String s = "select b from DataEntity b where b.collection=: tag and b.weight<=100";
+		Query q = entityManager.createQuery(s);
+		q.setParameter("tag", collection);
+		List<DataEntity> list = q.getResultList();
+		List<Data> booksList = new ArrayList<>();
+		if (list.size() > 0) {
+			for (DataEntity book : list) {
+				Data data = new Data();
+				data.setId(book.getId());
+				data.setName(book.getName());
+				data.setAuthor(book.getAuthor());
+				data.setCategory(book.getCategory());
+				data.setCollection(book.getCollection());
+				data.setPrice(book.getPrice());
+				data.setThumbnail(book.getThumbnail());
+				data.setWeight(book.getWeight());
+
+				booksList.add(data);
+			}
+		}
+		return booksList;
+	}
+
 }
