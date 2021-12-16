@@ -150,7 +150,7 @@ export default class Filter extends Component {
     window.location = "/Books";
   };
   priceClear = (e) => {
-    e.preventDefault();
+    e .preventDefault();
     this.setState({
       selected9: false,
       selected10: false,

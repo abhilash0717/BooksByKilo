@@ -15,6 +15,27 @@ import com.infy.model.Data;
 @Repository
 public class DaoImpl implements Dao {
 
+	// Gets the books from DB and to return to Front end
+	public List<Data> gettingBooksFromDb(List<DataEntity> list) {
+		ArrayList<Data> booksList = new ArrayList<>();
+		if (list.size() > 0) {
+			for (DataEntity book : list) {
+				Data data = new Data();
+				data.setId(book.getId());
+				data.setName(book.getName());
+				data.setAuthor(book.getAuthor());
+				data.setCategory(book.getCategory());
+				data.setCollection(book.getCollection());
+				data.setPrice(book.getPrice());
+				data.setThumbnail(book.getThumbnail());
+				data.setWeight(book.getWeight());
+
+				booksList.add(data);
+			}
+		}
+		return booksList;
+	}
+
 	@PersistenceContext
 	private EntityManager entityManager;
 
@@ -26,23 +47,8 @@ public class DaoImpl implements Dao {
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", "New");
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList<>();
-		if (list.size() > 0) {
-			for (DataEntity book : list) {
-				Data data = new Data();
-				data.setId(book.getId());
-				data.setName(book.getName());
-				data.setAuthor(book.getAuthor());
-				data.setCategory(book.getCategory());
-				data.setCollection(book.getCollection());
-				data.setPrice(book.getPrice());
-				data.setThumbnail(book.getThumbnail());
-				data.setWeight(book.getWeight());
+		return gettingBooksFromDb(list);
 
-				booksList.add(data);
-			}
-		}
-		return booksList;
 	}
 
 	// For returning the books from DB, only those books having the collection as
@@ -53,23 +59,7 @@ public class DaoImpl implements Dao {
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", "Premium");
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList<>();
-		if (list.size() > 0) {
-			for (DataEntity book : list) {
-				Data data = new Data();
-				data.setId(book.getId());
-				data.setName(book.getName());
-				data.setAuthor(book.getAuthor());
-				data.setCategory(book.getCategory());
-				data.setCollection(book.getCollection());
-				data.setPrice(book.getPrice());
-				data.setThumbnail(book.getThumbnail());
-				data.setWeight(book.getWeight());
-
-				booksList.add(data);
-			}
-		}
-		return booksList;
+		return gettingBooksFromDb(list);
 	}
 
 	// For returning the books from DB, only those books having the collection as
@@ -80,23 +70,7 @@ public class DaoImpl implements Dao {
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", "Classic");
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList<>();
-		if (list.size() > 0) {
-			for (DataEntity book : list) {
-				Data data = new Data();
-				data.setId(book.getId());
-				data.setName(book.getName());
-				data.setAuthor(book.getAuthor());
-				data.setCategory(book.getCategory());
-				data.setCollection(book.getCollection());
-				data.setPrice(book.getPrice());
-				data.setThumbnail(book.getThumbnail());
-				data.setWeight(book.getWeight());
-
-				booksList.add(data);
-			}
-		}
-		return booksList;
+		return gettingBooksFromDb(list);
 	}
 
 	// For returning the books from DB, only those books having the collection as
@@ -107,23 +81,7 @@ public class DaoImpl implements Dao {
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", "Standard");
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList<>();
-		if (list.size() > 0) {
-			for (DataEntity book : list) {
-				Data data = new Data();
-				data.setId(book.getId());
-				data.setName(book.getName());
-				data.setAuthor(book.getAuthor());
-				data.setCategory(book.getCategory());
-				data.setCollection(book.getCollection());
-				data.setPrice(book.getPrice());
-				data.setThumbnail(book.getThumbnail());
-				data.setWeight(book.getWeight());
-
-				booksList.add(data);
-			}
-		}
-		return booksList;
+		return gettingBooksFromDb(list);
 	}
 
 	// For returning all the books in the DB when we hit on the clear button in
@@ -133,24 +91,7 @@ public class DaoImpl implements Dao {
 		String s = "select b from DataEntity b";
 		Query q = entityManager.createQuery(s);
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList<>();
-
-		if (list.size() > 0) {
-			for (DataEntity book : list) {
-				Data data = new Data();
-				data.setId(book.getId());
-				data.setName(book.getName());
-				data.setAuthor(book.getAuthor());
-				data.setCategory(book.getCategory());
-				data.setCollection(book.getCollection());
-				data.setPrice(book.getPrice());
-				data.setThumbnail(book.getThumbnail());
-				data.setWeight(book.getWeight());
-
-				booksList.add(data);
-			}
-		}
-		return booksList;
+		return gettingBooksFromDb(list);
 	}
 
 	@Override
