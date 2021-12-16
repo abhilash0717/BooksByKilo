@@ -107,23 +107,8 @@ public class DaoImpl implements Dao {
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", collection);
 		List<DataEntity> list = q.getResultList();
-		List<Data> booksList = new ArrayList<>();
-		if (list.size() > 0) {
-			for (DataEntity book : list) {
-				Data data = new Data();
-				data.setId(book.getId());
-				data.setName(book.getName());
-				data.setAuthor(book.getAuthor());
-				data.setCategory(book.getCategory());
-				data.setCollection(book.getCollection());
-				data.setPrice(book.getPrice());
-				data.setThumbnail(book.getThumbnail());
-				data.setWeight(book.getWeight());
 
-				booksList.add(data);
-			}
-		}
-		return booksList;
+		return gettingBooksFromDb(list);
 	}
 
 }
