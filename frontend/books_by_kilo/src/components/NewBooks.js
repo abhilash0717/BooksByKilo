@@ -5,7 +5,7 @@ import Filter from "./Filter";
 import { AiOutlineShoppingCart } from "react-icons";
 import axios from "axios";
 
-const NewBooksUrl = "http://localhost:4000/BooksByKilo/NewBooks";
+const NewBooksUrl = "http://localhost:4001/BooksByKilo/NewBooks";
 
 export default class NewBooks extends Component {
   state = {
@@ -14,6 +14,7 @@ export default class NewBooks extends Component {
     selected3: false,
     selected4: false,
     books: [],
+    collection : "New"
   };
 
   componentDidMount() {
