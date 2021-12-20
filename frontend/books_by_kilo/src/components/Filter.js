@@ -81,6 +81,8 @@ export default class Filter extends Component {
     }
   };
 
+  
+
   Between100to200 = () => {
     this.setState({
       selected5: false,
