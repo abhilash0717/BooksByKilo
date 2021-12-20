@@ -31,6 +31,7 @@ export default class StandardCollection extends Component {
             <Filter data={this.state} />
           </div>
           <div className="col-md-9">
+            <h1 style={{ textAlign: "left" }}>Standard Books</h1>
             <div className="row">
               {books.map((book, key) => {
                 return (

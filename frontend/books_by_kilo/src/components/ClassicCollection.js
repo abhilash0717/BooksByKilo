@@ -39,6 +39,7 @@ export default class ClassicCollection extends Component {
           </div>
 
           <div className="col-md-9">
+            <h1 style={{ textAlign: "left" }}>Classic Books</h1>
             <div className="row">
               {books.map((book) => {
                 return (
