@@ -106,4 +106,15 @@ public class Api {
 		}
 	}
 
+	@GetMapping(value = "/{SearchResult}")
+	public ResponseEntity<List<Data>> getSearchResult(@PathVariable String SearchResult) throws Exception {
+		try {
+			List<Data> books = projectService.getSearchResult(SearchResult);
+			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
 }

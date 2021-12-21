@@ -20,4 +20,6 @@ public interface ProjectService {
 
 	List<Data> getBooksBasedOnPrice(String collection, String price);
 
+	List<Data> getSearchResult(String SearchResult);
+
 }

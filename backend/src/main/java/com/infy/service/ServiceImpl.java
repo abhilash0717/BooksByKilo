@@ -59,4 +59,10 @@ public class ServiceImpl implements ProjectService {
 		// TODO Auto-generated method stub
 		return dao.getBooksBasedOnPrice(collection, price);
 	}
+
+	@Override
+	public List<Data> getSearchResult(String SearchResult) {
+		// TODO Auto-generated method stub
+		return dao.getSearchResult(SearchResult);
+	}
 }
