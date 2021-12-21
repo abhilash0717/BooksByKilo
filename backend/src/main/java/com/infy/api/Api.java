@@ -106,7 +106,7 @@ public class Api {
 		}
 	}
 
-	@GetMapping(value = "/{SearchResult}")
+	@GetMapping(value = "/search/{SearchResult}")
 	public ResponseEntity<List<Data>> getSearchResult(@PathVariable String SearchResult) throws Exception {
 		try {
 			List<Data> books = projectService.getSearchResult(SearchResult);

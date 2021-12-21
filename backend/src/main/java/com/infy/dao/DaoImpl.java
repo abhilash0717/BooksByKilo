@@ -163,9 +163,10 @@ public class DaoImpl implements Dao {
 	@Override
 	public List<Data> getSearchResult(String SearchResult) {
 		String word = SearchResult;
-		String s = "select b from DataEntity b where b.name Like 'a%' ";
+		System.out.println(word);
+		String s = "select b from DataEntity b where b.name LIKE :tag ";
 		Query q = entityManager.createQuery(s);
-		q.setParameter("SearchResult", SearchResult);
+		q.setParameter("tag", '%' + word + '%');
 		List<DataEntity> list = q.getResultList();
 		return gettingBooksFromDb(list);
 	}
