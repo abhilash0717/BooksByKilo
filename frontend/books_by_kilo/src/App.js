@@ -12,6 +12,7 @@ import ClassicCollection from "./components/ClassicCollection";
 import Cart from "./components/Cart";
 import Register from "./components/Register";
 import Books from "./components/Books";
+import SearchResults from "./components/SearchResults";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Link to="/cart" />
           <Link to="/register" />
           <Link to="/Books" />
+          <Link to="/SearchResults" />
 
           <Routes>
             <Route exact path="/" exact element={<HomePage />} />
@@ -47,6 +49,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<Register />} />
             <Route path="/Books" element={<Books />} />
+            <Route path="/SearchResults" element={<SearchResults />} />
           </Routes>
         </>
       </Router>

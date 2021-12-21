@@ -7,6 +7,7 @@ export default class Navbar extends Component {
   state = {
     searchToggle: false,
     cart: false,
+    name: "",
   };
 
   cart = () => {
@@ -41,6 +42,14 @@ export default class Navbar extends Component {
   };
   standardCollection = () => {
     window.location = "/standardCollection";
+  };
+
+  inputChange = (e) => {
+    this.setState({ name: e.target.value });
+    window.localStorage.setItem("word", e.target.value);
+  };
+  searchResults = () => {
+    window.location = "/SearchResults";
   };
   render() {
     return (
@@ -152,12 +161,17 @@ export default class Navbar extends Component {
             </p>{" "}
             <div id="search">
               <p className="nav-link">
-                <input
-                  className="form-control input"
-                  style={{ width: "160px", marginRight: "-140px" }}
-                  type="text"
-                  placeholder="Search for book"
-                ></input>
+                <form>
+                  <input
+                    type="text"
+                    name="name"
+                    onChange={(e) => this.inputChange(e)}
+                    value={this.state.name}
+                    className="form-control "
+                    style={{ width: "160px", marginRight: "-140px" }}
+                    placeholder="Search for book"
+                  ></input>
+                </form>
               </p>
             </div>
             <div id="go">
@@ -169,6 +183,7 @@ export default class Navbar extends Component {
                   fontWeight: "bold",
                 }}
                 className="btn"
+                onClick={() => this.searchResults()}
               >
                 Go
               </button>
