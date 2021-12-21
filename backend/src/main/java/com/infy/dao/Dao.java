@@ -19,4 +19,6 @@ public interface Dao {
 
 	List<Data> getBooksBasedOnPrice(String collection, String price);
 
+	List<Data> getSearchResult(String SearchResult);
+
 }
