@@ -421,6 +421,7 @@ export default class PremiumCollection extends Component {
           </div>
           {/* Card */}
           <div className="col-md-9">
+            <h1 style={{ textAlign: "left" }}>Premium Books</h1>
             <div className="row">
               {books.map((book, key) => {
                 return (

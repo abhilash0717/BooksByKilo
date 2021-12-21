@@ -43,6 +43,7 @@ export default class Books extends Component {
             <Filter data={this.state} />
           </div>
           <div className="col-md-9">
+            <h1 style={{ textAlign: "left" }}>Books</h1>
             <div className="row">
               {books.map((book, key) => {
                 return (

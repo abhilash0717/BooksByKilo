@@ -424,6 +424,7 @@ export default class NewBooks extends Component {
 
           {/* displaying cards */}
           <div className="col-md-9">
+            <h1 style={{ textAlign: "left" }}>New Books</h1>
             <div className="row">
               {books.map((book, key) => {
                 return (
