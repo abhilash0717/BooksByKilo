@@ -22,25 +22,20 @@ export default class Register extends Component {
             <input
               className="form-control input"
               type="text"
-              placeholder="Name"
+              placeholder="Username"
               style={{ marginTop: "40px" }}
             />
             <br />
             <input
               className="form-control input"
-              type="text"
-              placeholder="Phone Number"
+              type="password"
+              placeholder="Password"
             />
             <br />
-            <input
-              className="form-control input"
-              type="text"
-              placeholder="Email"
-            />
             <br />
           </div>
           <div>
-            <button className="btn button2">Send OTP</button>
+            <button className="btn button2">Register</button>
           </div>
           <br />
 

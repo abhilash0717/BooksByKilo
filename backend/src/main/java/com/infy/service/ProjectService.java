@@ -22,4 +22,8 @@ public interface ProjectService {
 
 	List<Data> getSearchResult(String SearchResult);
 
+	String RegisterDetails(String Username, String Password);
+
+	String LoginDetails(String Username, String Password);
+
 }

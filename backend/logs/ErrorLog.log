@@ -7100,3 +7100,654 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token
 21-Dec-2021 18:54:49 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 21-Dec-2021 18:54:49 INFO - Initializing Servlet 'dispatcherServlet'
 21-Dec-2021 18:54:49 INFO - Completed initialization in 3 ms
+22-Dec-2021 19:36:08 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 6148 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+22-Dec-2021 19:36:08 INFO - No active profile set, falling back to default profiles: default
+22-Dec-2021 19:36:15 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-Dec-2021 19:36:15 INFO - Finished Spring Data repository scanning in 140 ms. Found 0 JPA repository interfaces.
+22-Dec-2021 19:36:31 INFO - Tomcat initialized with port(s): 4001 (http)
+22-Dec-2021 19:36:32 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+22-Dec-2021 19:36:32 INFO - Starting service [Tomcat]
+22-Dec-2021 19:36:32 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+22-Dec-2021 19:36:33 INFO - Initializing Spring embedded WebApplicationContext
+22-Dec-2021 19:36:33 INFO - Root WebApplicationContext: initialization completed in 24517 ms
+22-Dec-2021 19:36:37 INFO - HikariPool-1 - Starting...
+22-Dec-2021 19:36:44 INFO - HikariPool-1 - Start completed.
+22-Dec-2021 19:36:45 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Dec-2021 19:36:46 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+22-Dec-2021 19:36:47 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-Dec-2021 19:36:52 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22-Dec-2021 19:36:57 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-Dec-2021 19:36:57 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-Dec-2021 19:36:59 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-Dec-2021 19:37:02 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+22-Dec-2021 19:37:07 INFO - Starting ProtocolHandler ["http-nio-4001"]
+22-Dec-2021 19:37:07 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+22-Dec-2021 19:37:07 INFO - Started MainApplication in 61.177 seconds (JVM running for 66.853)
+22-Dec-2021 19:37:38 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-Dec-2021 19:37:38 INFO - Initializing Servlet 'dispatcherServlet'
+22-Dec-2021 19:37:38 INFO - Completed initialization in 4 ms
+22-Dec-2021 22:01:56 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m8s488ms74µs900ns).
+24-Dec-2021 14:01:17 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 2804 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 14:01:17 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 14:01:25 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 14:01:25 INFO - Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 14:01:34 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 14:01:34 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 14:01:34 INFO - Starting service [Tomcat]
+24-Dec-2021 14:01:34 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 14:01:34 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 14:01:34 INFO - Root WebApplicationContext: initialization completed in 16603 ms
+24-Dec-2021 14:01:36 INFO - HikariPool-1 - Starting...
+24-Dec-2021 14:01:40 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 14:01:41 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 14:01:42 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 14:01:43 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 14:01:44 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 14:01:48 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 14:01:48 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 14:01:49 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 14:01:52 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 14:01:55 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 14:01:56 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 14:01:56 INFO - Started MainApplication in 40.677 seconds (JVM running for 45.144)
+24-Dec-2021 16:13:32 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m51s733ms187µs800ns).
+24-Dec-2021 16:14:09 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s994ms668µs800ns).
+24-Dec-2021 16:45:33 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 13360 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 16:45:33 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 16:45:38 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 16:45:38 INFO - Finished Spring Data repository scanning in 58 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 16:45:44 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 16:45:44 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 16:45:44 INFO - Starting service [Tomcat]
+24-Dec-2021 16:45:44 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 16:45:45 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 16:45:45 INFO - Root WebApplicationContext: initialization completed in 11271 ms
+24-Dec-2021 16:45:47 INFO - HikariPool-1 - Starting...
+24-Dec-2021 16:45:48 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 16:45:49 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 16:45:49 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 16:45:50 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 16:45:51 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 16:45:54 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 16:45:54 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 16:45:55 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 16:45:58 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 16:46:02 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 16:46:02 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 16:46:02 INFO - Started MainApplication in 31.187 seconds (JVM running for 35.638)
+24-Dec-2021 16:47:32 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 16:47:32 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 16:47:32 INFO - Completed initialization in 3 ms
+24-Dec-2021 16:48:20 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 13932 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 16:48:20 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 16:48:24 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 16:48:24 INFO - Finished Spring Data repository scanning in 48 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 16:48:29 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 16:48:29 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 16:48:29 INFO - Starting service [Tomcat]
+24-Dec-2021 16:48:29 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 16:48:30 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 16:48:30 INFO - Root WebApplicationContext: initialization completed in 9851 ms
+24-Dec-2021 16:48:31 INFO - HikariPool-1 - Starting...
+24-Dec-2021 16:48:33 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 16:48:34 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 16:48:34 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 16:48:35 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 16:48:35 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 16:48:38 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 16:48:38 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 16:48:40 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 16:48:43 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 16:48:47 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 16:48:47 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 16:48:47 INFO - Started MainApplication in 30.122 seconds (JVM running for 34.218)
+24-Dec-2021 16:48:52 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 16:48:52 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 16:48:52 INFO - Completed initialization in 2 ms
+24-Dec-2021 16:48:52 WARN - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+24-Dec-2021 16:50:03 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 8080 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 16:50:03 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 16:50:07 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 16:50:07 INFO - Finished Spring Data repository scanning in 100 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 16:50:13 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 16:50:13 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 16:50:13 INFO - Starting service [Tomcat]
+24-Dec-2021 16:50:13 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 16:50:14 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 16:50:14 INFO - Root WebApplicationContext: initialization completed in 11023 ms
+24-Dec-2021 16:50:16 INFO - HikariPool-1 - Starting...
+24-Dec-2021 16:50:18 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 16:50:18 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 16:50:19 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 16:50:19 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 16:50:20 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 16:50:23 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 16:50:23 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 16:50:25 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 16:50:27 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 16:50:31 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 16:50:31 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 16:50:31 INFO - Started MainApplication in 30.277 seconds (JVM running for 34.774)
+24-Dec-2021 16:50:35 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 16:50:35 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 16:50:35 INFO - Completed initialization in 6 ms
+24-Dec-2021 17:23:00 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 3040 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 17:23:01 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 17:23:04 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 17:23:04 INFO - Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 17:23:12 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 17:23:12 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:23:12 INFO - Starting service [Tomcat]
+24-Dec-2021 17:23:12 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 17:23:13 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 17:23:13 INFO - Root WebApplicationContext: initialization completed in 11840 ms
+24-Dec-2021 17:23:15 INFO - HikariPool-1 - Starting...
+24-Dec-2021 17:23:16 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 17:23:17 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 17:23:17 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 17:23:18 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 17:23:19 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 17:23:23 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 17:23:23 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 17:23:25 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 17:23:27 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 17:23:30 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:23:31 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 17:23:31 INFO - Started MainApplication in 32.782 seconds (JVM running for 37.315)
+24-Dec-2021 17:26:52 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 17:26:52 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 17:26:52 INFO - Completed initialization in 3 ms
+24-Dec-2021 17:26:53 ERROR -  Invalid path: 'l.password'
+24-Dec-2021 17:26:53 ERROR -  Invalid path: 'l.password'
+org.hibernate.hql.internal.ast.InvalidPathException: Invalid path: 'l.password'
+	at org.hibernate.hql.internal.ast.util.LiteralProcessor.lookupConstant(LiteralProcessor.java:111) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolve(DotNode.java:219) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:114) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:109) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.tree.FromReferenceNode.resolve(FromReferenceNode.java:104) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.tree.DotNode.resolveSelectExpression(DotNode.java:770) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.resolveSelectExpression(HqlSqlWalker.java:1065) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2324) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2261) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1523) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:602) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:330) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:278) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) [hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:613) [hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) [hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) [hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) [spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) [spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) [?:?]
+	at com.infy.dao.DaoImpl.LoginDetails(DaoImpl.java:199) [classes/:?]
+	at com.infy.dao.DaoImpl$$FastClassBySpringCGLIB$$94a5f6ed.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) [spring-aop-5.3.5.jar:5.3.5]
+	at com.infy.dao.DaoImpl$$EnhancerBySpringCGLIB$$cbe35258.LoginDetails(<generated>) [classes/:?]
+	at com.infy.service.ServiceImpl.LoginDetails(ServiceImpl.java:78) [classes/:?]
+	at com.infy.service.ServiceImpl$$FastClassBySpringCGLIB$$659cae33.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) [spring-aop-5.3.5.jar:5.3.5]
+	at com.infy.service.ServiceImpl$$EnhancerBySpringCGLIB$$c850ba67.LoginDetails(<generated>) [classes/:?]
+	at com.infy.api.Api.LoginDetails(Api.java:137) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+24-Dec-2021 17:26:54 ERROR - org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:374) ~[spring-orm-5.3.5.jar:5.3.5]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235) ~[spring-orm-5.3.5.jar:5.3.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) [spring-aop-5.3.5.jar:5.3.5]
+	at com.infy.dao.DaoImpl$$EnhancerBySpringCGLIB$$cbe35258.LoginDetails(<generated>) [classes/:?]
+	at com.infy.service.ServiceImpl.LoginDetails(ServiceImpl.java:78) [classes/:?]
+	at com.infy.service.ServiceImpl$$FastClassBySpringCGLIB$$659cae33.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) [spring-aop-5.3.5.jar:5.3.5]
+	at com.infy.service.ServiceImpl$$EnhancerBySpringCGLIB$$c850ba67.LoginDetails(<generated>) [classes/:?]
+	at com.infy.api.Api.LoginDetails(Api.java:137) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at com.infy.dao.DaoImpl.LoginDetails(DaoImpl.java:199) ~[classes/:?]
+	at com.infy.dao.DaoImpl$$FastClassBySpringCGLIB$$94a5f6ed.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.5.jar:5.3.5]
+	... 80 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:74) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.ErrorTracker.throwQueryException(ErrorTracker.java:93) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:282) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:613) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at com.infy.dao.DaoImpl.LoginDetails(DaoImpl.java:199) ~[classes/:?]
+	at com.infy.dao.DaoImpl$$FastClassBySpringCGLIB$$94a5f6ed.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.5.jar:5.3.5]
+	... 80 more
+24-Dec-2021 17:26:54 ERROR - org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:374) ~[spring-orm-5.3.5.jar:5.3.5]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:235) ~[spring-orm-5.3.5.jar:5.3.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) ~[spring-aop-5.3.5.jar:5.3.5]
+	at com.infy.dao.DaoImpl$$EnhancerBySpringCGLIB$$cbe35258.LoginDetails(<generated>) ~[classes/:?]
+	at com.infy.service.ServiceImpl.LoginDetails(ServiceImpl.java:78) ~[classes/:?]
+	at com.infy.service.ServiceImpl$$FastClassBySpringCGLIB$$659cae33.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) [spring-tx-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) [spring-aop-5.3.5.jar:5.3.5]
+	at com.infy.service.ServiceImpl$$EnhancerBySpringCGLIB$$c850ba67.LoginDetails(<generated>) [classes/:?]
+	at com.infy.api.Api.LoginDetails(Api.java:137) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at com.infy.dao.DaoImpl.LoginDetails(DaoImpl.java:199) ~[classes/:?]
+	at com.infy.dao.DaoImpl$$FastClassBySpringCGLIB$$94a5f6ed.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.5.jar:5.3.5]
+	... 80 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l.password' [select l.password from com.infy.entity.UserInfoEntity b where b.password =: password]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:74) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.ErrorTracker.throwQueryException(ErrorTracker.java:93) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:282) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:613) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:114) ~[hibernate-core-5.4.29.Final.jar:5.4.29.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.5.jar:5.3.5]
+	at com.sun.proxy.$Proxy97.createQuery(Unknown Source) ~[?:?]
+	at com.infy.dao.DaoImpl.LoginDetails(DaoImpl.java:199) ~[classes/:?]
+	at com.infy.dao.DaoImpl$$FastClassBySpringCGLIB$$94a5f6ed.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) ~[spring-aop-5.3.5.jar:5.3.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.5.jar:5.3.5]
+	... 80 more
+24-Dec-2021 17:27:34 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 6244 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 17:27:34 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 17:27:38 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 17:27:38 INFO - Finished Spring Data repository scanning in 53 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 17:27:44 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 17:27:44 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:27:44 INFO - Starting service [Tomcat]
+24-Dec-2021 17:27:44 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 17:27:45 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 17:27:45 INFO - Root WebApplicationContext: initialization completed in 10433 ms
+24-Dec-2021 17:27:47 INFO - HikariPool-1 - Starting...
+24-Dec-2021 17:27:48 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 17:27:48 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 17:27:48 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 17:27:49 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 17:27:50 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 17:27:53 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 17:27:53 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 17:27:54 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 17:27:57 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 17:28:00 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:28:00 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 17:28:00 INFO - Started MainApplication in 28.47 seconds (JVM running for 32.843)
+24-Dec-2021 17:29:16 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 17:29:16 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 17:29:16 INFO - Completed initialization in 4 ms
+24-Dec-2021 17:33:10 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 11328 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 17:33:10 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 17:33:14 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 17:33:14 INFO - Finished Spring Data repository scanning in 55 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 17:33:20 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 17:33:20 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:33:20 INFO - Starting service [Tomcat]
+24-Dec-2021 17:33:20 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 17:33:21 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 17:33:21 INFO - Root WebApplicationContext: initialization completed in 10622 ms
+24-Dec-2021 17:33:23 INFO - HikariPool-1 - Starting...
+24-Dec-2021 17:33:25 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 17:33:25 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 17:33:26 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 17:33:27 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 17:33:28 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 17:33:31 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 17:33:31 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 17:33:32 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 17:33:35 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 17:33:39 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:33:39 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 17:33:39 INFO - Started MainApplication in 31.646 seconds (JVM running for 35.796)
+24-Dec-2021 17:34:30 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 17:34:30 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 17:34:30 INFO - Completed initialization in 4 ms
+24-Dec-2021 17:36:20 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 9392 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+24-Dec-2021 17:36:20 INFO - No active profile set, falling back to default profiles: default
+24-Dec-2021 17:36:24 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-Dec-2021 17:36:24 INFO - Finished Spring Data repository scanning in 55 ms. Found 0 JPA repository interfaces.
+24-Dec-2021 17:36:30 INFO - Tomcat initialized with port(s): 4001 (http)
+24-Dec-2021 17:36:30 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:36:30 INFO - Starting service [Tomcat]
+24-Dec-2021 17:36:30 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+24-Dec-2021 17:36:30 INFO - Initializing Spring embedded WebApplicationContext
+24-Dec-2021 17:36:30 INFO - Root WebApplicationContext: initialization completed in 10236 ms
+24-Dec-2021 17:36:32 INFO - HikariPool-1 - Starting...
+24-Dec-2021 17:36:33 INFO - HikariPool-1 - Start completed.
+24-Dec-2021 17:36:33 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-Dec-2021 17:36:34 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+24-Dec-2021 17:36:35 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+24-Dec-2021 17:36:36 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+24-Dec-2021 17:36:38 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+24-Dec-2021 17:36:38 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-Dec-2021 17:36:40 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-Dec-2021 17:36:42 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+24-Dec-2021 17:36:46 INFO - Starting ProtocolHandler ["http-nio-4001"]
+24-Dec-2021 17:36:47 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+24-Dec-2021 17:36:47 INFO - Started MainApplication in 29.68 seconds (JVM running for 33.79)
+24-Dec-2021 17:37:05 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-Dec-2021 17:37:05 INFO - Initializing Servlet 'dispatcherServlet'
+24-Dec-2021 17:37:05 INFO - Completed initialization in 3 ms

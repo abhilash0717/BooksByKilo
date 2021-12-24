@@ -65,4 +65,16 @@ public class ServiceImpl implements ProjectService {
 		// TODO Auto-generated method stub
 		return dao.getSearchResult(SearchResult);
 	}
+
+	@Override
+	public String RegisterDetails(String Username, String Password) {
+		// TODO Auto-generated method stub
+		return dao.RegisterDetails(Username, Password);
+	}
+
+	@Override
+	public String LoginDetails(String Username, String Password) {
+		// TODO Auto-generated method stub
+		return dao.LoginDetails(Username, Password);
+	}
 }
