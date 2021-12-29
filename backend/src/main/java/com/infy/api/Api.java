@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
@@ -111,6 +112,30 @@ public class Api {
 		try {
 			List<Data> books = projectService.getSearchResult(SearchResult);
 			ResponseEntity<List<Data>> response = new ResponseEntity<List<Data>>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
+	@PostMapping(value = "/Register/{Username}/{Password}")
+	public ResponseEntity<String> ResgisterDetails(@PathVariable String Username, @PathVariable String Password)
+			throws Exception {
+		try {
+			String books = projectService.RegisterDetails(Username, Password);
+			ResponseEntity<String> response = new ResponseEntity<String>(books, HttpStatus.CREATED);
+			return response;
+		} catch (Exception e) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));
+		}
+	}
+
+	@GetMapping(value = "/Login/{Username}/{Password}")
+	public ResponseEntity<String> LoginDetails(@PathVariable String Username, @PathVariable String Password)
+			throws Exception {
+		try {
+			String books = projectService.LoginDetails(Username, Password);
+			ResponseEntity<String> response = new ResponseEntity<String>(books, HttpStatus.CREATED);
 			return response;
 		} catch (Exception e) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, environment.getProperty(e.getMessage()));

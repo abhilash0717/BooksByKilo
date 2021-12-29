@@ -10,6 +10,7 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 
 import com.infy.entity.DataEntity;
+import com.infy.entity.UserInfoEntity;
 import com.infy.model.Data;
 
 @Repository
@@ -163,12 +164,55 @@ public class DaoImpl implements Dao {
 	@Override
 	public List<Data> getSearchResult(String SearchResult) {
 		String word = SearchResult;
-		System.out.println(word);
 		String s = "select b from DataEntity b where b.name LIKE :tag ";
 		Query q = entityManager.createQuery(s);
 		q.setParameter("tag", '%' + word + '%');
 		List<DataEntity> list = q.getResultList();
 		return gettingBooksFromDb(list);
+	}
+
+	@Override
+	public String RegisterDetails(String Username, String Password) {
+		String s = "select b.username from UserInfoEntity b where b.username =: name";
+		Query q = entityManager.createQuery(s);
+		q.setParameter("name", Username);
+		List<DataEntity> list = q.getResultList();
+
+		if (list.size() == 0) {
+			UserInfoEntity UDE = new UserInfoEntity();
+			UDE.setUsername(Username);
+			UDE.setPassword(Password);
+			entityManager.persist(UDE);
+			return Username + " successfully registered!!.. Thank you";
+		}
+		return Username + " already Exists.. Please login";
+	}
+
+	@Override
+	public String LoginDetails(String Username, String Password) {
+		String s = "select b.username from UserInfoEntity b where b.username =: name";
+		String str = "select b.password from UserInfoEntity b where b.password =: password";
+		Query query = entityManager.createQuery(s);
+		query.setParameter("name", Username);
+		List<String> results = query.getResultList();
+
+		Query q1 = entityManager.createQuery(str);
+		q1.setParameter("password", Password);
+		List<String> resultpassword = q1.getResultList();
+
+		if (results.size() > 0 && resultpassword.size() > 0) {
+			String n = results.get(0);
+			String p = resultpassword.get(0);
+			if (n.equals(Username) && p.equals(Password)) {
+				System.out.println("user is valid");
+				return n;
+
+			} else {
+				if (n.equals(Username) && p != Password)
+					return Username + " is valid.. But the password entered is incorrect";
+			}
+		}
+		return "Username/password is not registered/invalid";
 	}
 
 }

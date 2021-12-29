@@ -3,8 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import axios from "axios";
 
-const NewBooksUrl = "http://localhost:4001/BooksByKilo/NewBooks";
-
+const searchResultsUrl = "http://localhost:4001/BooksByKilo/search";
 
 export default class SearchResults extends Component {
   state = {
@@ -13,7 +12,7 @@ export default class SearchResults extends Component {
 
   componentDidMount() {
     axios
-      .get(NewBooksUrl)
+      .get(searchResultsUrl.concat("/" + window.localStorage.getItem("word")))
       .then((response) => {
         console.log(response);
         this.setState({ books: response.data });

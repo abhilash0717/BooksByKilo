@@ -21,11 +21,17 @@ export default class Login extends Component {
             <input
               className="form-control input"
               type="text"
-              placeholder="Phone Number"
+              placeholder="Username"
               style={{ marginTop: "40px" }}
             />
             <br />
-            <button className="btn button2">Send OTP</button>
+            <input
+              className="form-control input"
+              type="password"
+              placeholder="Password"
+            />
+            <br />
+            <button className="btn button2">Login</button>
             <br />
             <br />
 
