@@ -7100,3 +7100,30 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token
 21-Dec-2021 18:54:49 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 21-Dec-2021 18:54:49 INFO - Initializing Servlet 'dispatcherServlet'
 21-Dec-2021 18:54:49 INFO - Completed initialization in 3 ms
+22-Dec-2021 09:47:16 INFO - Starting MainApplication using Java 15.0.2 on LAPTOP-1OVJBQVU with PID 6220 (C:\Users\Manjunathan S\Documents\GitHub\BooksByKilo\backend\target\classes started by Manjunathan S in C:\Users\Manjunathan S\Documents\GitHub\BooksByKilo\backend)
+22-Dec-2021 09:47:16 INFO - No active profile set, falling back to default profiles: default
+22-Dec-2021 09:47:17 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-Dec-2021 09:47:17 INFO - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+22-Dec-2021 09:47:19 INFO - Tomcat initialized with port(s): 4001 (http)
+22-Dec-2021 09:47:19 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+22-Dec-2021 09:47:19 INFO - Starting service [Tomcat]
+22-Dec-2021 09:47:19 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+22-Dec-2021 09:47:19 INFO - Initializing Spring embedded WebApplicationContext
+22-Dec-2021 09:47:19 INFO - Root WebApplicationContext: initialization completed in 2627 ms
+22-Dec-2021 09:47:19 INFO - HikariPool-1 - Starting...
+22-Dec-2021 09:47:20 INFO - HikariPool-1 - Start completed.
+22-Dec-2021 09:47:20 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Dec-2021 09:47:20 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+22-Dec-2021 09:47:20 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-Dec-2021 09:47:20 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22-Dec-2021 09:47:21 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-Dec-2021 09:47:21 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-Dec-2021 09:47:21 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-Dec-2021 09:47:22 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+22-Dec-2021 09:47:22 INFO - Starting ProtocolHandler ["http-nio-4001"]
+22-Dec-2021 09:47:22 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+22-Dec-2021 09:47:23 INFO - Started MainApplication in 6.927 seconds (JVM running for 8.239)
+22-Dec-2021 09:47:29 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-Dec-2021 09:47:29 INFO - Initializing Servlet 'dispatcherServlet'
+22-Dec-2021 09:47:29 INFO - Completed initialization in 2 ms
+22-Dec-2021 10:03:44 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m54s222ms285µs801ns).
