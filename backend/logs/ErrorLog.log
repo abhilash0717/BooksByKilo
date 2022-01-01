@@ -7751,3 +7751,34 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'l
 24-Dec-2021 17:37:05 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 24-Dec-2021 17:37:05 INFO - Initializing Servlet 'dispatcherServlet'
 24-Dec-2021 17:37:05 INFO - Completed initialization in 3 ms
+24-Dec-2021 21:40:18 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s813ms163µs900ns).
+27-Dec-2021 09:40:07 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d12h13s941ms307µs400ns).
+27-Dec-2021 13:00:03 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m20s810ms595µs900ns).
+27-Dec-2021 16:24:29 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h42m26s14ms54µs900ns).
+27-Dec-2021 22:52:16 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h23s13ms543µs600ns).
+27-Dec-2021 22:52:59 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s90ms971µs800ns).
+28-Dec-2021 12:58:15 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h5m1s433ms109µs700ns).
+28-Dec-2021 15:55:52 WARN - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m3s899ms489µs300ns).
+30-Dec-2021 17:22:27 INFO - Starting MainApplication using Java 11.0.2 on Abilash-PC with PID 4004 (C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend\target\classes started by Abilash in C:\Users\Abilash\OneDrive\Documents\GitHub\dummy\backend)
+30-Dec-2021 17:22:27 INFO - No active profile set, falling back to default profiles: default
+30-Dec-2021 17:22:34 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-Dec-2021 17:22:34 INFO - Finished Spring Data repository scanning in 46 ms. Found 0 JPA repository interfaces.
+30-Dec-2021 17:22:43 INFO - Tomcat initialized with port(s): 4001 (http)
+30-Dec-2021 17:22:43 INFO - Initializing ProtocolHandler ["http-nio-4001"]
+30-Dec-2021 17:22:43 INFO - Starting service [Tomcat]
+30-Dec-2021 17:22:43 INFO - Starting Servlet engine: [Apache Tomcat/9.0.44]
+30-Dec-2021 17:22:43 INFO - Initializing Spring embedded WebApplicationContext
+30-Dec-2021 17:22:43 INFO - Root WebApplicationContext: initialization completed in 15260 ms
+30-Dec-2021 17:22:46 INFO - HikariPool-1 - Starting...
+30-Dec-2021 17:22:52 INFO - HikariPool-1 - Start completed.
+30-Dec-2021 17:22:52 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+30-Dec-2021 17:22:53 INFO - HHH000412: Hibernate ORM core version 5.4.29.Final
+30-Dec-2021 17:22:54 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Dec-2021 17:22:55 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+30-Dec-2021 17:22:59 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Dec-2021 17:22:59 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-Dec-2021 17:23:02 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-Dec-2021 17:23:04 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+30-Dec-2021 17:23:09 INFO - Starting ProtocolHandler ["http-nio-4001"]
+30-Dec-2021 17:23:09 INFO - Tomcat started on port(s): 4001 (http) with context path ''
+30-Dec-2021 17:23:09 INFO - Started MainApplication in 44.791 seconds (JVM running for 49.216)
